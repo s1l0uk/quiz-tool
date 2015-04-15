@@ -1,5 +1,5 @@
 Quiz tool engine
 
-the question are hosted on myjson.com
+the questions are hosted on myjson.com
 
-please edit the line near 114 to choose the exam 
+please edit the line near 111 of index.html to choose the exam 
