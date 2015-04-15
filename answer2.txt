@@ -1,0 +1,121 @@
+A Allow no inbound traffic, Allow all outbound traffic and Allow instances associated with this security group to talk to each other
+C A scalable Domain Name System.
+C A managed In-memory cache service.
+D 0 Elastic IP
+D A firewall for inbound traffic, built-in around every Amazon EC2 instance.
+C never
+D Amazon EBS snapshots
+C A low-cost storage service that provides secure and durable storage for data archiving and backup.
+B No
+N:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ebs-detaching-volume.html
+D 1,000 to 10,000
+N:http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/USER_PIOPS.html
+B no permissions
+B Yes. You can.
+A user
+C You can't terminate, stop, or delete a resource based solely on its tags
+A TRUE
+C Yes
+A Yes always
+A Yes
+N:PROMPT> mysql -h myinstance.mydnsnameexample.rds.amazonaws.com --ssl_ca=cert-rds-ssl-ca.pem
+D EC2 Addresses
+B FALSE
+A The data on an instance store volume persists only during the life of the associated Amazon EC2 instance
+A is not currently
+C network ACLs
+A Yes, with both hardware or virtual MFA devices.
+C Simple Work Flow
+A An application container on top of Amazon Web Services.
+A No
+A Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform.
+A You will need to delete the Read Replica and create a new one to replace it.
+A Internal DNS name
+B storage-full
+B Yes, through the Amazon EC2 APIs.
+D No
+A No
+A Yes.
+N:The AWS Management Console now includes complete support for Amazon Route 53. You can now create your hosted zones and set up the appropriate records (A, CNAME, MX, and so forth) in a convenient visual environment. http://aws.typepad.com/aws/route-53/
+A SQL Server--
+B By using the service specific console or API\CLI commands
+B TRUE
+D Amazon EBS
+C Secondary network interface
+N:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html
+B SelectPrivate, enter the IDs of those AWS accounts, and clickSave
+B Yes
+A If you use production online transaction processing (OLTP) workloads.
+D major version
+C 1
+N:http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/monitoring-volume-status.html#using_cloudwatch_ebs
+C Replica Lag
+A No
+B Terminate
+C Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform.
+D security groups and network ACLs
+B Amazon EBS
+C Yes
+A dedicated
+B Relational Database Service.
+B Creates a new security group for use with your account.
+N:EC2-Classic: You can have up to 500 security groups. EC2-VPC: You can create up to 100 security groups per VPC.
+D 1 hour
+D Elastic Load Balancing.
+D A template resource creation for Amazon Web Services.
+D Yes for all users
+B based on Availability Zone
+D Yes, it's called Direct Connect.
+B 1 hour
+C 1
+C Yes
+C No
+A DB Instance
+B Simple Email Service.
+B a bucket or object
+A Yes always
+D block device
+B No. You cannot.
+D Elastic Compute Unit.
+A No charge. It is free.
+C Yes
+A 2
+C It encrypts the files that you send to Amazon S3, on the server side.
+A Elastic Block Storage.
+D A collection of users.
+D permission
+B Yes. You can.
+C Not in any circumstance
+B Yes
+B Start twenty instances as members of appserver group.
+A No
+C tags
+C Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform.
+B TRUE
+A Yes for all users
+A Yes
+N:http://docs.aws.amazon.com/general/latest/gr/aws_service_limits.html
+D There is no charge for using the public data sets
+C Oracle Enterprise Edition
+D Amazon IAM
+D HTTPS
+A SOAP
+D No
+C No charge. It is free
+A Action
+D I/O operations to the database are suspended for a few minutes while the backup is in progress.
+A private key
+A Sharding
+A Bring Your Own License
+D ApplyImmediately
+D Yes, it supports Name Server records.
+A bulk copy
+B FreeStorageVolume
+A Paying account and Linked account
+A policy
+A 10 GB per DB
+A Attaching an ENI to an instance when it is stopped.
+B on a proration basis
+B 35
+D 10
+C Yes-

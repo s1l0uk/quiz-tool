@@ -1,0 +1,1793 @@
+[
+    {
+        "question1": "1. Select the correct set of options. These are the initial settings for the default security group:",
+        "list": {
+            "A": "Allow no inbound traffic, Allow all outbound traffic and Allow instances associated with this security group to talk to each other",
+            "B": "Allow all inbound traffic, Allow no outbound traffic and Allow instances associated with this security group to talk to each other",
+            "C": "Allow no inbound traffic, Allow all outbound traffic and Does NOT allow instances associated with this security group to talk to each other",
+            "D": "Allow all inbound traffic, Allow all outbound traffic and Does NOT allow instances associated with this security group to talk to each other"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2. What does Amazon Route53 provide?",
+        "list": {
+            "A": "A global Content Delivery Network.",
+            "B": "None of these.",
+            "C": "A scalable Domain Name System.",
+            "D": "An SSH endpoint for Amazon EC2."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3. What does Amazon ElastiCache provide?",
+        "list": {
+            "A": "A service by this name doesn't exist. Perhaps you mean Amazon CloudCache.",
+            "B": "A virtual server with a huge amount of memory.",
+            "C": "A managed In-memory cache service.",
+            "D": "An Amazon EC2 instance with the Memcached software already pre-installed."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4. How many Elastic IP by default in Amazon Account?",
+        "list": {
+            "A": "1 Elastic IP",
+            "B": "3 Elastic IP",
+            "C": "5 Elastic IP",
+            "D": "0 Elastic IP"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5. What is a Security Group?",
+        "list": {
+            "A": "None of these.",
+            "B": "A list of users that can access Amazon EC2 instances.",
+            "C": "An Access Control List (ACL) for AWS resources.",
+            "D": "A firewall for inbound traffic, built-in around every Amazon EC2 instance."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6. The one-time payment for Reserved Instances is _____ refundable if the reservation is cancelled.",
+        "list": {
+            "A": "always",
+            "B": "in some circumstances",
+            "C": "never"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7. Please select the Amazon EC2 resource which can be tagged.",
+        "list": {
+            "A": "key pairs",
+            "B": "Elastic IP addresses",
+            "C": "placement groups",
+            "D": "Amazon EBS snapshots"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "8. What is Amazon Glacier?",
+        "list": {
+            "A": "It's a security tool that allows to \"freeze\" an EC2 instance and perform computer forensics on it.",
+            "B": "A security tool that allows to \"freeze\" an EBS volume and perform computer forensics on it.",
+            "C": "A low-cost storage service that provides secure and durable storage for data archiving and backup.",
+            "D": "You mean Amazon \"Iceberg\": it's a low-cost storage service."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "9. If an Amazon EBS volume is the root device of an instance, can I detach it without stopping the instance?",
+        "list": {
+            "A": "Yes but only if Windows instance",
+            "B": "No",
+            "C": "Yes",
+            "D": "Yes but only if a Linux instance"
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": "http:\/\/docs.aws.amazon.com\/AWSEC2\/latest\/UserGuide\/ebs-detaching-volume.html"
+    },
+    {
+        "question1": "10. If you are using Amazon RDS Provisioned IOPS storage with MySQL and Oracle database engines, you can scale the throughput of your database Instance by specifying the IOPS rate from _____ .",
+        "list": {
+            "A": "1,000 to 1,00,000",
+            "B": "100 to 1,000",
+            "C": "10,000 to 1,00,000",
+            "D": "1,000 to 10,000"
+        },
+        "answer": "D",
+        "answer_mode": "radio",
+        "note": "http:\/\/docs.aws.amazon.com\/AmazonRDS\/latest\/UserGuide\/USER_PIOPS.html"
+    },
+    {
+        "question1": "11. Every user you create in the IAM system starts with ______.",
+        "list": {
+            "A": "full permissions",
+            "B": "no permissions",
+            "C": "partial permissions"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "12. After an Amazon VPC instance is launched, can I change the VPC security groups it belongs to?",
+        "list": {
+            "A": "Only if the tag \"VPC_Change_Group\" is true",
+            "B": "Yes. You can.",
+            "C": "No. You cannot.",
+            "D": "Only if the tag \"VPC Change Group\" is true"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "13. A______- is an individual, system, or application that interacts with AWS programmatically.",
+        "list": {
+            "A": "user",
+            "B": "AWS Account",
+            "C": "Group",
+            "D": "Role"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "14. Select the correct statement:",
+        "list": {
+            "A": "You don't need not specify the resource identifier while stopping a resource",
+            "B": "You can terminate, stop, or delete a resource based solely on its tags",
+            "C": "You can't terminate, stop, or delete a resource based solely on its tags",
+            "D": "You don't need to specify the resource identifier while terminating a resource"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "15. Amazon EC2 has no Amazon Resource Names (ARNs) because you can't specify a particular Amazon EC2 resource in an IAM policy. True or False?",
+        "list": {
+            "A": "TRUE",
+            "B": "FALSE"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "16. Can I initiate a \"forced failover\" for my MySQL Multi-AZ DB Instance deployment?",
+        "list": {
+            "A": "Only in certain regions",
+            "B": "Only in VPC",
+            "C": "Yes",
+            "D": "No"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "17. A group can contain many users. Can a user belong to multiple groups?",
+        "list": {
+            "A": "Yes always",
+            "B": "No",
+            "C": "Yes but only if they are using two factor authentication",
+            "D": "Yes but only in VPC"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "18. Is the encryption of connections between my application and my DB Instance using SSL for the MySQL server engines available?",
+        "list": {
+            "A": "Yes",
+            "B": "Only in VPC",
+            "C": "Only in certain regions",
+            "D": "No"
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "PROMPT> mysql -h myinstance.mydnsnameexample.rds.amazonaws.com --ssl_ca=cert-rds-ssl-ca.pem"
+    },
+    {
+        "question1": "19. Which AWS instance address has the following characteristics? :\"If you stop an instance, its Elastic IP address is unmapped, and you must remap it when you restart the instance.\"",
+        "list": {
+            "A": "Both A and B",
+            "B": "None of these",
+            "C": "VPC Addresses",
+            "D": "EC2 Addresses"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "20. True or False: Common points of failures like generators and cooling equipment are shared across Availability Zones.",
+        "list": {
+            "A": "TRUE",
+            "B": "FALSE"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "21. Please select the most correct answer regarding the persistence of the Amazon Instance Store",
+        "list": {
+            "A": "The data on an instance store volume persists only during the life of the associated Amazon EC2 instance",
+            "B": "The data on an instance store volume is lost when the security group rule of the associated instance is changed.",
+            "C": "The data on an instance store volume persists even after associated Amazon EC2 instance is deleted"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "22. Multi-AZ deployment _____ supported for Microsoft SQL Server DB Instances.",
+        "list": {
+            "A": "is not currently",
+            "B": "using SQL Server Mirroring as a high-availability, failover solution",
+            "C": "will never be"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "23. Security groups act like a firewall at the instance level, whereas _____ are an additional layer of security that act at the subnet level.",
+        "list": {
+            "A": "DB Security Groups",
+            "B": "VPC Security Groups",
+            "C": "network ACLs"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "24. Does AWS allow for the use of Multi Factor Authentication tokens?",
+        "list": {
+            "A": "Yes, with both hardware or virtual MFA devices.",
+            "B": "Yes, but it offers only virtual MFA devices.",
+            "C": "Yes, but it offers only physical (hardware) MFA devices.",
+            "D": "No."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "25. What does Amazon SWF stand for?",
+        "list": {
+            "A": "Simple Wireless Forms",
+            "B": "Simple Web Form",
+            "C": "Simple Work Flow",
+            "D": "Simple Web Flow"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "26. What does Amazon Elastic Beanstalk provide?",
+        "list": {
+            "A": "An application container on top of Amazon Web Services.",
+            "B": "A scalable storage appliance on top of Amazon Web Services.",
+            "C": "A scalable cluster of EC2 instances.",
+            "D": "A service by this name doesn't exist."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "27. Is the SQL Server Audit feature supported in the Amazon RDS SQL Server engine?",
+        "list": {
+            "A": "No",
+            "B": "Yes"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "28. Are you able to integrate a multi-factor token service with the AWS Platform?",
+        "list": {
+            "A": "Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform.",
+            "B": "No, you cannot integrate multi-factor token devices with the AWS platform.",
+            "C": "Yes, you can integrate private multi-factor token devices to authenticate users to the AWS platform."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "29. My Read Replica appears \"stuck\" after a Multi-AZ failover and is unable to obtain or apply updates from the source DB Instance. What do I do?",
+        "list": {
+            "A": "You will need to delete the Read Replica and create a new one to replace it.",
+            "B": "You will need to disassociate the DB Engine and re associate it.",
+            "C": "The instance should be deployed to Single AZ and then moved to Multi- AZ once again",
+            "D": "You will need to delete the DB Instance and create a new one to replace it."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "30. Which DNS name can only be resolved within Amazon EC2?",
+        "list": {
+            "A": "Internal DNS name",
+            "B": "External DNS name",
+            "C": "Global DNS name",
+            "D": "Private DNS name"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "31. If your DB instance runs out of storage space or file system resources, its status will change to_____ and your DB Instance will no longer be available.",
+        "list": {
+            "A": "storage-overflow",
+            "B": "storage-full",
+            "C": "storage-exceed",
+            "D": "storage-overage"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "32. Is it possible to access your EBS snapshots?",
+        "list": {
+            "A": "Yes, through the Amazon S3 APIs.",
+            "B": "Yes, through the Amazon EC2 APIs.",
+            "C": "No, EBS snapshots cannot be accessed; they can only be used to create a new EBS volume.",
+            "D": "EBS doesn't provide snapshots."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "33. Will my standby RDS instance be in the same Availability Zone as my primary?",
+        "list": {
+            "A": "Only for Oracle RDS types",
+            "B": "Only if configured at launch",
+            "C": "Yes",
+            "D": "No"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "34. Does Amazon RDS for SQL Server currently support importing data into the msdb database?",
+        "list": {
+            "A": "No",
+            "B": "Yes"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "35. Does Route 53 support MX Records?",
+        "list": {
+            "A": "Yes.",
+            "B": "It supports CNAME records, but not MX records.",
+            "C": "No",
+            "D": "Only Primary MX records. Secondary MX records are not supported."
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "The AWS Management Console now includes complete support for Amazon Route 53. You can now create your hosted zones and set up the appropriate records (A, CNAME, MX, and so forth) in a convenient visual environment. http:\/\/aws.typepad.com\/aws\/route-53\/"
+    },
+    {
+        "question1": "36. Because of the extensibility limitations of striped storage attached to Windows Server, Amazon RDS does not currently support increasing storage on a _____ DB Instance.",
+        "list": {
+            "A": "SQL Server",
+            "B": "MySQL",
+            "C": "Oracle"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "37. How can I change the security group membership for interfaces owned by other AWS, such as Elastic Load Balancing?",
+        "list": {
+            "A": "using all these methods",
+            "B": "By using the service specific console or API\\CLI commands",
+            "C": "None of these"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "38. True or False: When you perform a restore operation to a point in time or from a DB Snapshot, a new DB Instance is created with a new endpoint.",
+        "list": {
+            "A": "FALSE",
+            "B": "TRUE"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "39. Which Amazon storage do you think is the best for my database-style applications that frequently encounter many random reads and writes across the dataset.",
+        "list": {
+            "A": "None of these.",
+            "B": "Amazon Instance Storage",
+            "C": "Any of these",
+            "D": "Amazon EBS"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "40. In a management network scenario the which interface on the instance handles public-facing traffic?",
+        "list": {
+            "A": "Primary network interface",
+            "B": "Subnet interface",
+            "C": "Secondary network interface"
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "http:\/\/docs.aws.amazon.com\/AWSEC2\/latest\/UserGuide\/using-eni.html"
+    },
+    {
+        "question1": "41. Select the correct set of steps for exposing the snapshot only to specific AWS accounts",
+        "list": {
+            "A": "Select public for all the accounts and check mark those accounts with whom you want to expose the snapshots and click save.",
+            "B": "SelectPrivate, enter the IDs of those AWS accounts, and clickSave",
+            "C": "SelectPublic, enter the IDs of those AWS accounts, and clickSave.",
+            "D": "SelectPublic, mark the IDs of those AWS accounts as private, and clickSave."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "42. Is decreasing the storage size of a DB Instance permitted?",
+        "list": {
+            "A": "Depends on the RDMS used",
+            "B": "Yes",
+            "C": "No"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "43. When should I choose Provisioned IOPS over Standard RDS storage?",
+        "list": {
+            "A": "If you use production online transaction processing (OLTP) workloads.",
+            "B": "If you have batch-oriented workloads",
+            "C": "If you have workloads that are not sensitive to consistent performance"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "44. In the context of MySQL, version numbers are organized as MySQL version = X.Y.Z. What does X denote here??",
+        "list": {
+            "A": "release level",
+            "B": "minor version",
+            "C": "version number",
+            "D": "major version"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "45. It is advised that you watch the Amazon CloudWatch \"_____\" metric (available via the AWS Management Console or Amazon Cloud Watch APIs) carefully and recreate the Read Replica should it fall behind due to replication errors.",
+        "list": {
+            "A": "Write Lag",
+            "B": "Read Replica",
+            "C": "Replica Lag",
+            "D": "Single Replica"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "46. By default what are ENIs that are automatically created and attached to instances using the EC2 console set to do when the attached instance terminates?",
+        "list": {
+            "A": "Remain as is",
+            "B": "Terminate",
+            "C": "Hibernate",
+            "D": "Pause"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "47. Are you able to integrate a multi-factor token service with the AWS Platform?",
+        "list": {
+            "A": "Yes, you can integrate private multi-factor token devices to authenticate users to the AWS platform.",
+            "B": "No, you cannot integrate multi-factor token devices with the AWS platform.",
+            "C": "Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "48. You can use _____ and _____ to help secure the instances in your VPC.",
+        "list": {
+            "A": "security groups and multi-factor authentication",
+            "B": "security groups and 2-Factor authentication",
+            "C": "security groups and biometric authentication",
+            "D": "security groups and network ACLs"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "49. Fill in the blanks: _____ is a durable, block-level storage volume that you can attach to a single, running Amazon EC2 instance.",
+        "list": {
+            "A": "Amazon S3",
+            "B": "Amazon EBS",
+            "C": "None of these.",
+            "D": "All of these"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "50. Do the Amazon EBS volumes persist independently from the running life of an Amazon EC2 instance?",
+        "list": {
+            "A": "No",
+            "B": "Only if instructed to when created",
+            "C": "Yes"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "51. If I want my instance to run on a signle-tenant hardware, which value do I have to set the instance's tenancy attribute to?",
+        "list": {
+            "A": "dedicated",
+            "B": "isolated",
+            "C": "one",
+            "D": "reserved"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "52. What does the following command do with respect to the Amazon EC2 security groups? ec2-create-group CreateSecurityGroup",
+        "list": {
+            "A": "Creates a new rule inside the security group.",
+            "B": "Creates a new security group for use with your account.",
+            "C": "Creates a new group inside the security group.",
+            "D": "Groups the user created security groups in to a new group for easy access."
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": "EC2-Classic: You can have up to 500 security groups. EC2-VPC: You can create up to 100 security groups per VPC."
+    },
+    {
+        "question1": "53. What is the maximum response time for a Business level Premium Support case?",
+        "list": {
+            "A": "30 minutes",
+            "B": "You always get instant responses (within a few seconds).",
+            "C": "10 minutes",
+            "D": "1 hour"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "54. What does Amazon ELB stand for?",
+        "list": {
+            "A": "Elastic Linux Box.",
+            "B": "Encrypted Linux Box.",
+            "C": "Encrypted Load Balancing.",
+            "D": "Elastic Load Balancing."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "55. What does Amazon CloudFormation provide?",
+        "list": {
+            "A": "None of these.",
+            "B": "The ability to setup Autoscaling for Amazon EC2 instances.",
+            "C": "A template to map network resources for Amazon Web Services.",
+            "D": "A template resource creation for Amazon Web Services."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "56. Is there a limit to the number of groups you can have?",
+        "list": {
+            "A": "Yes for all users except root",
+            "B": "No",
+            "C": "Yes unless special permission granted",
+            "D": "Yes for all users"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "57. Location of Instances are _____",
+        "list": {
+            "A": "Regional",
+            "B": "based on Availability Zone",
+            "C": "Global"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "58. Is there any way to own a direct connection to Amazon Web Services?",
+        "list": {
+            "A": "You can create an encrypted tunnel to VPC, but you don't own the connection.",
+            "B": "Yes, it's called Amazon Dedicated Connection.",
+            "C": "No, AWS only allows access from the public Internet.",
+            "D": "Yes, it's called Direct Connect."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "59. What is the maximum response time for a Business level Premium Support case?",
+        "list": {
+            "A": "30 minutes",
+            "B": "1 hour",
+            "C": "12 hours",
+            "D": "10 minutes"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "60. You must assign each server to at least _____ security group",
+        "list": {
+            "A": "4",
+            "B": "3",
+            "C": "1",
+            "D": "2"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "61. Does DynamoDB support in-place atomic updates?",
+        "list": {
+            "A": "It is not defined",
+            "B": "No",
+            "C": "Yes",
+            "D": "It does support in-place non-atomic updates"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "62. Is there a method in the IAM system to allow or deny access to a specific instance?",
+        "list": {
+            "A": "Only for VPC based instances",
+            "B": "Yes",
+            "C": "No"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "63. What is an isolated database environment running in the cloud (Amazon RDS) called?",
+        "list": {
+            "A": "DB Instance",
+            "B": "DB Unit",
+            "C": "DB Server",
+            "D": "DB Volume"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "64. What does Amazon SES stand for?",
+        "list": {
+            "A": "Simple Elastic Server.",
+            "B": "Simple Email Service.",
+            "C": "Software Email Solution.",
+            "D": "Software Enabled Server."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "65. Amazon S3 doesn't automatically give a user who creates _____ permission to perform other actions on that bucket or object.",
+        "list": {
+            "A": "a file",
+            "B": "a bucket or object",
+            "C": "a bucket or file",
+            "D": "a object or file"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "66. Can I attach more than one policy to a particular entity?",
+        "list": {
+            "A": "Yes always",
+            "B": "Only if within GovCloud",
+            "C": "No",
+            "D": "Only if within VPC"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "67. Fill in the blanks: A_____ is a storage device that moves data in sequences of bytes or bits (blocks). Hint: These devices support random access and generally use buffered I\/O.",
+        "list": {
+            "A": "block map",
+            "B": "storage block",
+            "C": "mapping device",
+            "D": "block device"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "68. Can I detach the primary (eth0) network interface when the instance is running or stopped?",
+        "list": {
+            "A": "Yes. You can.",
+            "B": "No. You cannot.",
+            "C": "Depends on the state of the interface at the time"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "69. What's an ECU?",
+        "list": {
+            "A": "Extended Cluster User.",
+            "B": "None of these.",
+            "C": "Elastic Computer Usage.",
+            "D": "Elastic Compute Unit."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "70. What is the charge for the data transfer incurred in replicating data between your primary and standby?",
+        "list": {
+            "A": "No charge. It is free.",
+            "B": "Double the standard data transfer charge",
+            "C": "Same as the standard data transfer charge",
+            "D": "Half of the standard data transfer charge"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "71. Does AWS Direct Connect allow you access to all Availabilities Zones within a Region?",
+        "list": {
+            "A": "Depends on the type of connection",
+            "B": "No",
+            "C": "Yes",
+            "D": "Only when there's just one availability zone in a region. If there are more than one, only one availability zone can be accessed directly."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "72. How many types of block devices does Amazon EC2 support",
+        "list": {
+            "A": "2",
+            "B": "4",
+            "C": "3",
+            "D": "1"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "73. What does the \"Server Side Encryption\" option on Amazon S3 provide?",
+        "list": {
+            "A": "It provides an encrypted virtual disk in the Cloud.",
+            "B": "It doesn't exist for Amazon S3, but only for Amazon EC2.",
+            "C": "It encrypts the files that you send to Amazon S3, on the server side.",
+            "D": "It allows to upload files using an SSL endpoint, for a secure transfer."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "74. Within the IAM service a GROUP is regarded as a:",
+        "list": {
+            "A": "A collection of AWS accounts",
+            "B": "It's the group of EC2 machines that gain the permissions specified in the GROUP.",
+            "C": "There's no GROUP in IAM, but only USERS and RESOURCES.",
+            "D": "A collection of users."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "75. A_____is the concept of allowing (or disallowing) an entity such as a user, group, or role some type of access to one or more resources.",
+        "list": {
+            "A": "user",
+            "B": "AWS Account",
+            "C": "resource",
+            "D": "permission"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "76. After an Amazon VPC instance is launched, can I change the VPC security groups it belongs to?",
+        "list": {
+            "A": "No. You cannot.",
+            "B": "Yes. You can.",
+            "C": "Only if you are the root user",
+            "D": "Only if the tag \"VPC_Change_Group\" is true"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "77. Do the system resources on the Micro instance meet the recommended configuration for Oracle?",
+        "list": {
+            "A": "Yes completely",
+            "B": "Yes but only for certain situations",
+            "C": "Not in any circumstance"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "78. Will I be charged if the DB instance is idle?",
+        "list": {
+            "A": "No",
+            "B": "Yes",
+            "C": "Only is running in GovCloud",
+            "D": "Only if running in VPC"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "79. If I write the below command, what does it do? ec2-run ami-e3a5408a -n 20 -g appserver",
+        "list": {
+            "A": "Creates 20 rules in the security group named app server",
+            "B": "Start twenty instances as members of appserver group.",
+            "C": "Start 20 security groups",
+            "D": "Terminate twenty instances as members of appserver group."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "80. Can I move a Reserved Instance from one Region to another?",
+        "list": {
+            "A": "No",
+            "B": "Yes",
+            "C": "Only if they are moving into GovCloud",
+            "D": "Only if they are moving to US East from another region"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "81. To help you manage your Amazon EC2 instances, images, and other Amazon EC2 resources, you can assign your own metadata to each resource in the form of_____",
+        "list": {
+            "A": "special filters",
+            "B": "functions",
+            "C": "tags",
+            "D": "wildcards"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "82. Are you able to integrate a multi-factor token service with the AWS Platform?",
+        "list": {
+            "A": "No, you cannot integrate multi-factor token devices with the AWS platform.",
+            "B": "Yes, you can integrate private multi-factor token devices to authenticate users to the AWS platform.",
+            "C": "Yes, using the AWS multi-factor token devices to authenticate users on the AWS platform."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "83. True or False: When you add a rule to a DB security group, you do not need to specify port number or protocol.",
+        "list": {
+            "A": "Depends on the RDMS used",
+            "B": "TRUE",
+            "C": "FALSE"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "84. Is there a limit to the number of groups you can have?",
+        "list": {
+            "A": "Yes for all users",
+            "B": "Yes for all users except root",
+            "C": "No",
+            "D": "Yes unless special permission granted"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "85. Can I initiate a \"forced failover\" for my Oracle Multi-AZ DB Instance deployment?",
+        "list": {
+            "A": "Yes",
+            "B": "Only in certain regions",
+            "C": "Only in VPC",
+            "D": "No"
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "http:\/\/docs.aws.amazon.com\/general\/latest\/gr\/aws_service_limits.html"
+    },
+    {
+        "question1": "86. Amazon EC2 provides a repository of public data sets that can be seamlessly integrated into AWS cloud-based applications.What is the monthly charge for using the public data sets?",
+        "list": {
+            "A": "A 1 time charge of 10$ for all the datasets.",
+            "B": "1$ per dataset per month",
+            "C": "10$ per month for all the datasets",
+            "D": "There is no charge for using the public data sets"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "87. In the Amazon RDS Oracle DB engine, the Database Diagnostic Pack and the Database Tuning Pack are only available with _____",
+        "list": {
+            "A": "Oracle Standard Edition",
+            "B": "Oracle Express Edition",
+            "C": "Oracle Enterprise Edition",
+            "D": "None of these"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "88. Without _____, you must either create multiple AWS accounts-each with its own billing and subscriptions to AWS products-or your employees must share the security credentials of a single AWS account.",
+        "list": {
+            "A": "Amazon RDS",
+            "B": "Amazon Glacier",
+            "C": "Amazon EMR",
+            "D": "Amazon IAM"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "89. Amazon RDS supports SOAP only through _____.",
+        "list": {
+            "A": "HTTP or HTTPS",
+            "B": "TCP\/IP",
+            "C": "HTTP",
+            "D": "HTTPS"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "90. The Amazon EC2 web service can be accessed using the _____ web services messaging protocol. This interface is described by a Web Services Description Language (WSDL) document.",
+        "list": {
+            "A": "SOAP",
+            "B": "DCOM",
+            "C": "CORBA",
+            "D": "XML-RPC"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "91. Is creating a Read Replica of another Read Replica supported?",
+        "list": {
+            "A": "Only in VPC",
+            "B": "Yes",
+            "C": "Only in certain regions",
+            "D": "No"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "92. What is the charge for the data transfer incurred in replicating data between your primary and standby?",
+        "list": {
+            "A": "Same as the standard data transfer charge",
+            "B": "Double the standard data transfer charge",
+            "C": "No charge. It is free",
+            "D": "Half of the standard data transfer charge"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "93. HTTP Query-based requests are HTTP requests that use the HTTP verb GET or POST and a Query parameter named_____.",
+        "list": {
+            "A": "Action",
+            "B": "Value",
+            "C": "Reset",
+            "D": "Retrieve"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "94. What happens to the I\/O operations while you take a database snapshot?",
+        "list": {
+            "A": "I\/O operations to the database are suspended for an hour while the backup is in progress.",
+            "B": "I\/O operations to the database are sent to a Replica (if available) for a few minutes while the backup is in progress.",
+            "C": "I\/O operations will be functioning normally",
+            "D": "I\/O operations to the database are suspended for a few minutes while the backup is in progress."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "95. Amazon RDS creates an SSL certificate and installs the certificate on the DB Instance when Amazon RDS provisions the instance. These certificates are signed by a certificate authority. The _____ is stored athttps:\/\/rds.amazonaws.com\/doc\/rds-ssl-ca-cert.pem.",
+        "list": {
+            "A": "private key",
+            "B": "foreign key",
+            "C": "public key",
+            "D": "protected key"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "96. _____ embodies the \"share-nothing\" architecture and essentially involves breaking a large database into several smaller databases. Common ways to split a database include 1)splitting tables that are not joined in the same query onto different hosts or 2)duplicating a table across multiple hosts and then using a hashing algorithm to determine which host receives a given update.",
+        "list": {
+            "A": "Sharding",
+            "B": "Failure recovery",
+            "C": "Federation",
+            "D": "DDL operations"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "97. What is the name of licensing model in which I can use your existing Oracle Database licenses to run Oracle deployments on Amazon RDS?",
+        "list": {
+            "A": "Bring Your Own License",
+            "B": "Role Bases License",
+            "C": "Enterprise License",
+            "D": "License Included"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "98. When you resize the Amazon RDS DB instance, Amazon RDS will perform the upgrade during the next maintenance window. If you want the upgrade to be performed now, rather than waiting for the maintenance window, specify the _____ option.",
+        "list": {
+            "A": "ApplyNow",
+            "B": "ApplySoon",
+            "C": "ApplyThis",
+            "D": "ApplyImmediately"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "99. Does Amazon Route 53 support NS Records?",
+        "list": {
+            "A": "Yes, it supports Name Service records.",
+            "B": "No",
+            "C": "It supports only MX records.",
+            "D": "Yes, it supports Name Server records."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "100. The SQL Server _____ feature is an efficient means of copying data from a source database to your DB Instance. It writes the data that you specify to a data file, such as an ASCII file.",
+        "list": {
+            "A": "bulk copy",
+            "B": "group copy",
+            "C": "dual copy",
+            "D": "mass copy"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "101. In the Amazon cloud watch, which metric should I be checking to ensure that your DB Instance has enough free storage space?",
+        "list": {
+            "A": "FreeStorage",
+            "B": "FreeStorageVolume",
+            "C": "FreeStorageSpace",
+            "D": "FreeStorageAllocation"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "102. When using consolidated billing there are two account types. What are they?",
+        "list": {
+            "A": "Paying account and Linked account",
+            "B": "Parent account and Child account",
+            "C": "Main account and Sub account.",
+            "D": "Main account and Secondary account."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "103. A_____is a document that provides a formal statement of one or more permissions.",
+        "list": {
+            "A": "policy",
+            "B": "permission",
+            "C": "Role",
+            "D": "resource"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "104. In the Amazon RDS which uses the SQL Server engine, what is the maximum size for a Microsoft SQL Server DB Instance with SQL Server Express edition?",
+        "list": {
+            "A": "10 GB per DB",
+            "B": "100 GB per DB",
+            "C": "2 TB per DB",
+            "D": "1TB per DB"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "105. Regarding the attaching of ENI to an instance, what does 'warm attach' refer to?",
+        "list": {
+            "A": "Attaching an ENI to an instance when it is stopped.",
+            "B": "This question doesn t makesense.",
+            "C": "Attaching an ENI to an instance when it is running",
+            "D": "Attaching an ENI to an instance during the launch process"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "106. If I scale the storage capacity provisioned to my DB Instance by mid of a billing month, how will I be charged?",
+        "list": {
+            "A": "you will be charged for the highest storage capacity you have used",
+            "B": "on a proration basis",
+            "C": "you will be charged for the lowest storage capacity you have used"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "107. You can modify the backup retention period; valid values are 0 (for no backup retention) to a maximum of _____ days.",
+        "list": {
+            "A": "45",
+            "B": "35",
+            "C": "15",
+            "D": "5"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "108. A Provisioned IOPS volume must be at least _____ GB in size",
+        "list": {
+            "A": "1",
+            "B": "50",
+            "C": "20",
+            "D": "10"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "109. Will I be alerted when automatic failover occurs?",
+        "list": {
+            "A": "Only if SNS configured",
+            "B": "No",
+            "C": "Yes",
+            "D": "Only if Cloud watch configured"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "110. You must increase storage size in increments of at least _____ %",
+        "list": {
+            "A": "40",
+            "B": "20",
+            "C": "50",
+            "D": "10 "
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "111. Read Replicas require a transactional storage engine and are only supported for the _____ storage engine  ",
+        "list": {
+            "A": "OracleISAM",
+            "B": "MSSQLDB",
+            "C": "InnoDB",
+            "D": "MyISAM"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "112. Are Reserved Instances available for Multi-AZ Deployments?",
+        "list": {
+            "A": "Only for Cluster Compute instances",
+            "B": "Yes for all instance types",
+            "C": "Only for M3 instance types",
+            "D": "No"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "113. Can we attach an EBS volume to more than one EC2 instance at the same time?",
+        "list": {
+            "A": "Yes.",
+            "B": "No",
+            "C": "Only EC2-optimized EBS volumes.",
+            "D": "Only in read mode."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "114. In the 'Detailed' monitoring data available for your Amazon EBS volumes, Provisioned IOPS volumes automatically send _____ minute metrics to Amazon CloudWatch.",
+        "list": {
+            "A": "5",
+            "B": "2",
+            "C": "1",
+            "D": "3"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "115. Can the string value of 'Key' be prefixed with :aws:\"?",
+        "list": {
+            "A": "No",
+            "B": "Only for EC2 not S3",
+            "C": "Yes",
+            "D": "Only for S3 not EC2"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "116. What does Amazon RDS stand for?",
+        "list": {
+            "A": "Regional Data Server.",
+            "B": "Relational Database Service.",
+            "C": "Nothing.",
+            "D": "Regional Database Service."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "117. What does Amazon EBS stand for?",
+        "list": {
+            "A": "Elastic Block Storage.",
+            "B": "Elastic Business Server.",
+            "C": "Elastic Blade Server.",
+            "D": "Elastic Block Store."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "118. Amazon Glacier is designed for?",
+        "list": {
+            "A": "active database storage",
+            "B": "infrequently accessed data",
+            "C": "frequently accessed data",
+            "D": "cached session data"
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": "Glacier is an archival storage service. You're charged every-time you access data over the free tier threshold. When you put data in Glacier you want to have a reasonable expectation that you'll at most need to recover a small portion at most per-month unless there is a disaster\/emergency scenario."
+    },
+    {
+        "question1": "119. Your web application front end consists of multiple EC2 instances behind an Elastic Load Balancer. You configured ELB to perform health checks on these EC2 instances. If an instance fails to pass health checks, which statement will be true?",
+        "list": {
+            "A": "The instance is replaced automatically by the ELB",
+            "B": "The instance gets terminated automatically by the ELB",
+            "C": "The ELB stops sending traffic to the instance that failed its health check",
+            "D": "The instance gets quarantined by the ELB for root cause analysis"
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "ELBs are deigned to dynamically forward traffic to the eth0 interface of some set of ec2 instances in one or more availability zones of a single region. When monitoring is setup the ELB will see that the instance isn't responding and stop sending traffic to the failed instance."
+    },
+    {
+        "question1": "120. You are building a system to distribute confidential training videos to employees. Using CloudFront, what method could be used to serve content that is stored in S3, but not publically accessible from S3 directly?",
+        "list": {
+            "A": "Create an Origin Access Identity (OAI) for CloudFront and grant access to the objects in your S3 bucket to that OAI.",
+            "B": "Add the CloudFront account security group \u201camazon-cf\/amazon-cf-sg\u201d to the appropriate S3 bucket policy.",
+            "C": "Create an Identity and Access Management (IAM) User for CloudFront and grant access to the objects in your S3 bucket to that IAM User.",
+            "D": "Create a S3 bucket policy that lists the CloudFront distribution ID as the Principal and the target bucket as the Amazon Resource Name (ARN)."
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "CloudFront is a CDN capability that distributes S3 objects geographically. An OAI is sort of like a service account for a CloudFront distribution. Using an OAI you can restrict access to S3 content effectively preventing direct access to content in S3 but still allowing CloudFront access to distribute that data."
+    },
+    {
+        "question1": "121. Which of the following will occur when an EC2 instance in a VPC (Virtual Private Cloud) with an associated Elastic IP is stopped and started?",
+        "list": {
+            "A": "The Elastic IP will be dissociated from the instance",
+            "B": "All data on instance-store devices will be lost",
+            "C": "All data on EBS (Elastic Block Store) devices will be lost",
+            "D": "The ENI (Elastic Network Interface) is detached"
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": "It's important in this question to note that the instance is in a VPC to rule out other answers. Any instance storage device is only persisted during the running life of the instance because instance storage is physically attached to the host rather than NAS storage like EBS. Now part of the reason that instance storage only persists while an instance is powered on is because the host could\/always changes when the instance is started. Remember that instance resources are very loosely coupled with other resources. When you start an instance it gets a resource reservation on a carefully chosen, presumably with some complex algorithm, available host."
+    },
+    {
+        "question1": "122. In the basic monitoring package for EC2, Amazon CloudWatch provides the following metrics:",
+        "list": {
+            "A": "web server visible metrics such as number failed transaction requests",
+            "B": "operating system visible metrics such as memory utilization",
+            "C": "database visible metrics such as number of connections",
+            "D": "hypervisor visible metrics such as CPU utilization"
+        },
+        "answer": "D",
+        "answer_mode": "radio",
+        "note": "A responsibility boundary exists between the hypervisor and guest operating system. AWS does not have access to the guest operating system and therefore cannot see anything that isn't visible to the hypervisor. Such information would be resource demands of the guest operating system that the hypervisor must service like, CPU usage. Refer back to the shared responsibility model discussed in the AWS Security Whitepaper. http:\/\/d36cz9buwru1tt.cloudfront.net\/pdf\/AWS_Security_Whitepaper.pdf"
+    },
+    {
+        "question1": "123. Which is an operational process performed by AWS for data security?",
+        "list": {
+            "A": "AES-256 encryption of data stored on any shared storage device",
+            "B": "Decommissioning of storage devices using industry-standard practices",
+            "C": "Replication of data across multiple AWS Regions",
+            "D": "Secure wiping of EBS data when an EBS volume is unmounted"
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": " The key to this question is understanding again the shared responsibility boundary between AWS and its customers as well as the specific statement \"operational process\". Again we need to refer to the AWS Security Whitepaper. As a standard practice AWS shreds all physical disks after magnetically wiping them as part of their decommissioning process. "
+    },
+    {
+        "question1": "124. To protect S3 data from both accidental deletion and accidental overwriting, you should:",
+        "list": {
+            "A": "enable S3 versioning on the bucket",
+            "B": "access S3 data using only signed URLs",
+            "C": "disable S3 delete using an IAM bucket policy",
+            "D": "enable S3 Reduced Redundancy Storage"
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "By enabling versioning you ensure that if accidentally or otherwise overwritten any previous object version is persisted as a previous version. In addition you protect against complete loss from accidental deletion"
+    },
+    {
+        "question1": "125. Does S3 provide read-after-write consistency?",
+        "list": {
+            "A": "No, not for any region",
+            "B": "Yes, but only for certain regions",
+            "C": "Yes, but only for certain regions and for new objects",
+            "D": "Yes, for all regions"
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "S3\u2019s consistency model is that of eventual consistency. This means that when an object is stored in S3, it is replicated in different datacenters (availability zones) in the same region. And it can take a short amount of time before all the data centers have a uniform view of the object (This time is usually less than a second, but if system is in distress it could take much longer). Thus in essence, S3 does not provide read-after-write consistency. But the S3 team has modified the algorithm so as to provide read-after-write consistency for new objects. Which means that if I upload \u201cobject-n\u201d for the first time (lets call it version-1), I get the opportunity to immediately read it without any consistency issues. This is though not supported for US-East region. Thus S3 support read-after-write consistency for new objects but for all regions except US-East."
+    },
+    {
+        "question1": "126. What is the maximum size of a single S3 object?",
+        "list": {
+            "A": "There is no such limit",
+            "B": "5 TB",
+            "C": "5 GB",
+            "D": "100 GB"
+        },
+        "answer": "B",
+        "answer_mode": "radio",
+        "note": "Using multipart upload, a single object in S3 can be upto 5TB in size."
+    },
+    {
+        "question1": "127. Is data stored in S3 is always encrypted?",
+        "list": {
+            "A": "Yes, S3 always encrypts data for security",
+            "B": "No, there is no such feature",
+            "C": "Yes, but only when right APIs are called",
+            "D": "Yes, but only in Gov Cloud datacenters"
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "S3 by default do not encrypt the data stored into its service. But using Server Side Encryption feature, if proper headers are passes (in REST), S3 will first encrypt the data and then store that encrypted data."
+    },
+    {
+        "question1": "128. What is true for S3 buckets (select multiple if more than one is true)?",
+        "list": {
+            "A": "Bucket namespace is shared and is global among all AWS users.",
+            "B": "Bucket names can contain alpha numeric characters",
+            "C": "Bucket are associated with a region, and all data in a bucket resides in that region",
+            "D": "Buckets can be transferred from one account to another through API"
+        },
+        "answer": "A,B,C",
+        "answer_mode": "checkbox",
+        "note": "Bucket namespace is global, which means that if someone creates a bucket called \u201cpics\u201d nobody else can create a bucket of the same name. Bucket names can contain alphanumeric characters which means we can have a bucket named \u201ccloudthat1234\u201d. And when we create a bucket, we have to select a region for the bucket, and all data stored in that bucket is physically stored in that region only (although the data can be accessed from anywhere in the world with proper credentials)."
+    },
+    {
+        "question1": "129. EBS can always tolerate an Availability Zone failure?",
+        "list": {
+            "A": "No, all EBS volume is stored in a single Availability Zone",
+            "B": "Yes, EBS volume has multiple copies so it should be fine",
+            "C": "Depends on how it is setup",
+            "D": "Depends on the Region where EBS volume is initiated"
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "One of the known fallacies of EBS is that all the data of a single volume lives in a single Availability Zone. Thus it cannot withstand Availability zone failures."
+    },
+    {
+        "question1": "130. Which of the following Auto scaling CANNOT do (select multiple if more than one is true)?",
+        "list": {
+            "A": "Start up EC2 instances when CPU utilization is above threshold",
+            "B": "Release EC2 instances when CPU utilization is below threshold",
+            "C": "Increase the instance size when utilization is above threshold",
+            "D": "Add more Relational Database Service (RDS) read replicas when utilization is above threshold"
+        },
+        "answer": "C,D",
+        "answer_mode": "checkbox",
+        "note": "Auto scaling cannot increase instance size of an EC2 instance. The idea is to be able to scale horizontally, and not vertically. Also D is correct as Auto scaling currently cannot automate RDS instance to do anything."
+    },
+    {
+        "question1": "131. Which of the following benefits does adding Multi-AZ deployment in RDS provide (choose multiple if more than one is true)?",
+        "list": {
+            "A": "MultiAZ deployed database can tolerate an Availability Zone failure",
+            "B": "Decrease latencies if app servers accessing database are in multiple Availability zones",
+            "C": "Make database access times faster for all app servers",
+            "D": "Make database more available during maintenance tasks"
+        },
+        "answer": "A,D",
+        "answer_mode": "checkbox",
+        "note": "RDS MultiAZ does make database a single AZ failure tolerant, as it has automatic failover feature, where the secondly will become primary and application can keep accessing the database. It also increases availability during maintenance, as maintenance is performed first on secondary, then its made primary and then old-primary is updated."
+    },
+    {
+        "question1": "132. What happens to data when an EC2 instance terminates (select multiple if more than one is true)?",
+        "list": {
+            "A": "For EBS backed AMI, the EBS volume with operation system on it is preserved",
+            "B": "For EBS backed AMI, any volume attached other than the OS volume is preserved",
+            "C": "All the snapshots of the EBS volume with operating system is preserved",
+            "D": "For S3 backed AMI, all the data in the local (ephemeral) hard drive is deleted"
+        },
+        "answer": "B,C,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "133. For an EC2 instance launched in a private subnet in VPC, which of the following are the options for it to be able to connect to the internet (assume security groups have proper ports open).",
+        "list": {
+            "A": "Simply attach an elastic IP",
+            "B": "If there is also a public subnet in the same VPC, an ENI can be attached to the instance with the ip address range of the public subnet",
+            "C": "If there is a public subnet in the same VPC with a NAT instance attached to internet gateway, then a route can be configured from the instance to the NAT",
+            "D": "There is no way for an instance in private subnet to talk to the internet"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "134. When an ELB is setup, what is the best way to route a website\u2019s traffic to it?",
+        "list": {
+            "A": "Resolve the ELB name to an ip address  and point the website to that ip address",
+            "B": "There is no direct way to do so, Route53 has to be used",
+            "C": "Generate a CNAME record for the website pointing to the DNS name of the ELB"
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "The ip address of an ELB can change, so it\u2019s not advisable to point domain directly at that ip address. Instead use CNAME to map to the ELB DNS name"
+    },
+    {
+        "question1": "135. An instance is launched into the public subnet of a VPC. Which of the following must be done in order for it to be accessible FROM the Internet?",
+        "list": {
+            "A": "Attach an Elastic IP to the instance",
+            "B": "Nothing. The instance is accessible from the Internet",
+            "C": "Launch a NAT instance and route all traffic to it",
+            "D": "Make an entry in the route table passing all traffic going outside the VPC to the NAT instance"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "136. In VPCs with private and public subnets, database servers should ideally be launched into:",
+        "list": {
+            "A": "The public subnet",
+            "B": "The private subnet",
+            "C": "Either of them",
+            "D": "Not recommended, they should ideally be launched outside VPC"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "137. An instance is connected to an ENI (Elastic Network Interface) in one subnet. What happens when you attach an ENI of a different subnet to this instance?",
+        "list": {
+            "A": "The instance follows the rules of the older subnet",
+            "B": "The instance follows the rules of both the subnets",
+            "C": "The instance follows the rules of the newer subnet",
+            "D": "Not possible cannot be connected to 2 ENIs"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "138. You want to use Route53 to direct your www sub-domain to an elastic load balancer fronting your web servers. What kind of record set should you create?",
+        "list": {
+            "A": "A",
+            "B": "AAAA",
+            "C": "NS",
+            "D": "CNAME"
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "139. You have created 4 weighted resource record sets with weights 1, 2, 3 and 4. the 3rd record set is selected by Route53:",
+        "list": {
+            "A": "1\/7th of the  time",
+            "B": "3\/10th of the time",
+            "C": "3\/7th of the time",
+            "D": "1\/4th of the time"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "140. You have created a Route 53 latency record set from your domain to a machine in Singapore and a similar record to a machine in Oregon. When a user located in India visits your domain he will be routed to:",
+        "list": {
+            "A": "Singapore",
+            "B": "Oregon",
+            "C": "Depends on the load on each machine",
+            "D": "Both, because 2 requests are made, 1 to each machine"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "141. Which of the following can be used as an origin server in CloudFront?(Choose 3)",
+        "list": {
+            "A": "A webserver running on EC2",
+            "B": "A webserver running in your own datacenter",
+            "C": "A RDS instance",
+            "D": "An Amazon S3 bucket"
+        },
+        "answer": "A,B,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "142. In CloudFront what happens when content is NOT present at an Edge location and a request is made to it?",
+        "list": {
+            "A": "An Error 404 not found is returned",
+            "B": "CloudFront delivers the content directly from the origin server and stores it in the cache of the edge location",
+            "C": "The request is kept on hold till content is delivered to the edge location",
+            "D": "The request is routed to the next closest edge location"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "143. Which of the following is true with respect to serving private content through CloudFront?",
+        "list": {
+            "A": "Signed URLs can be created to access objects from CloudFront edge locations",
+            "B": "Direct access to S3 URLs can be removed therefore allowing access only through CloudFront URLs",
+            "C": "Mark the S3 bucket private and allow access to CloudFront by means of Roles",
+            "D": "Mark the S3 bucket private and and create an Origin Access Identity to access the objects"
+        },
+        "answer": "A,B,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "144. You have written a CloudFormation template that creates 1 elastic load balancer fronting 2 EC2 instances. Which section of the template should you edit so that the DNS of the load balancer is returned upon creation of the stack.",
+        "list": {
+            "A": "Resources",
+            "B": "Parameters",
+            "C": "Outputs",
+            "D": "Mappings"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "145. A 3-tier e-commerce web application is current deployed on-premises and will be migrated to AWS for greater scalability and elasticity The web server currently shares read-only data using a network distributed file system The app server tier uses a clustering mechanism for discovery and shared session state that depends on IP multicast The database tier uses shared-storage clustering to provide database fall over capability, and uses several read slaves for scaling Data on all servers and the distributed file system directory is backed up weekly to off-site tapes Which AWS storage and database architecture meets the requirements of the application? ",
+        "list": {
+            "A": "Web servers, store read-only data in S3, and copy from S3 to root volume at boot time App servers snare state using a combination or DynamoDB and IP unicast Database use RDS with multi-AZ deployment and one or more Read Replicas Backup web and app servers backed up weekly via Mils database backed up via DB snapshots. ",
+            "B": "Web servers store -read-only data in S3, and copy from S3 to root volume at boot time App servers share state using a combination of DynamoDB and IP unicast Database, use RDS with multi-AZ deployment and one or more read replicas Backup web servers app servers, and database backed up weekly to Glacier using snapshots. ",
+            "C": "Web servers store read-only data In S3 and copy from S3 to root volume at boot time App servers share state using a combination of DynamoDB and IP unicast Database use RDS with multi-AZ deployment Backup web and app servers backed up weekly via AM is. database backed up via DB snapshots ",
+            "D": "Web servers, store read-only data in an EC2 NFS server, mount to each web server at boot time App servers share state using a combination of DynamoDB and IP multicast Database use RDS with multl-AZ deployment and one or more Read Replicas Backup web and app servers backed up weekly via Mils database backed up via DB snapshots"
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "146. Your customer wishes to deploy an enterprise application to AWS which will consist of several web servers, several application servers and a small (50GB) Oracle database information is stored, both in the database and the file systems of the various servers. The backup system must support database recovery whole server and whole disk restores, and individual file restores with a recovery time of no more than two hours They have chosen to use RDS Oracle as the database Which backup architecture will meet these requirements? ",
+        "list": {
+            "A": "Backup RDS using automated daily DB backups Backup the EC2 instances using AMIs and supplement with file-level backup to S3 using traditional enterprise backup software to provide file level restore ",
+            "B": "Backup RDS using a Multi-AZ Deployment Backup the EC2 instances using Amis, and supplement by copying file system data to S3 to provide file level restore. ",
+            "C": "Backup RDS using automated daily DB backups Backup the EC2 instances using EBS snapshots and supplement with file-level backups to Amazon Glacier using traditional enterprise backup software to provide file level restore ",
+            "D": "Backup RDS database to S3 using Oracle RMAN Backup the EC2 instances using Amis, and supplement with EBS snapshots for individual volume restore."
+        },
+        "answer": "C",
+        "answer_mode": "radio",
+        "note": "Reference: http:\/\/www.boyter.org\/wp-content\/uploads\/2014\/12\/Backup-And-Recovery-Approaches-Using-Aws.pdf"
+    },
+    {
+        "question1": "147. Your company has HQ in Tokyo and branch offices all over the world and is using a logistics software with a multi-regional deployment on AWS in Japan, Europe and USA. The logistic software has a 3-tier architecture and currently uses MySQL 5.6 for data persistence. Each region has deployed its own database In the HQ region you run an hourly batch process reading data from every region to compute cross-regional reports that are sent by email to all offices this batch process must be completed as fast as possible to quickly optimize logistics how do you build the database architecture in order to meet the requirements\u2019? ",
+        "list": {
+            "A": "For each regional deployment, use RDS MySQL with a master in the region and a read replica in the HQ region ",
+            "B": "For each regional deployment, use MySQL on EC2 with a master in the region and send hourly EBS snapshots to the HQ region ",
+            "C": "For each regional deployment, use RDS MySQL with a master in the region and send hourly RDS snapshots to the HQ region ",
+            "D": "For each regional deployment, use MySQL on EC2 with a master in the region and use S3 to copy data files hourly to the HQ region ",
+            "E": "Use Direct Connect to connect all regional MySQL deployments to the HQ region and reduce network latency for the batch process"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "148. A customer has a 10 GB AWS Direct Connect connection to an AWS region where they have a web application hosted on Amazon Elastic Computer Cloud (EC2). The application has dependencies on an on-premises mainframe database that uses a BASE (Basic Available. Sort stale Eventual consistency) rather than an ACID (Atomicity. Consistency isolation. Durability) consistency model. The application is exhibiting undesirable behavior because the database is not able to handle the volume of writes. How can you reduce the load on your on-premises database resources in the most cost-effective way? ",
+        "list": {
+            "A": "Use an Amazon Elastic Map Reduce (EMR) S3DistCp as a synchronization mechanism between the on-premises database and a Hadoop cluster on AWS. ",
+            "B": "Modify the application to write to an Amazon SQS queue and develop a worker process to flush the queue to the on-premises database. ",
+            "C": "Modify the application to use DynamoDB to feed an EMR cluster which uses a map function to write to the on-premises database. ",
+            "D": "Provision an RDS read-replica database on AWS to handle the writes and synchronize the two databases using Data Pipeline."
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "Reference: https:\/\/aws.amazon.com\/blogs\/aws\/category\/amazon-elastic-map-reduce\/"
+    },
+    {
+        "question1": "149. Company B is launching a new game app for mobile devices. Users will log into the game using their existing social media account to streamline data capture. Company B would like to directly save player data and scoring information from the mobile app to a DynamoDS table named Score Data When a user saves their game the progress data will be stored to the Game state S3 bucket. what is the best approach for storing data to DynamoDB and S3? ",
+        "list": {
+            "A": "Use an EC2 Instance that is launched with an EC2 role providing access to the Score Data DynamoDB table and the GameState S3 bucket that communicates with the mobile app via web services. ",
+            "B": "Use temporary security credentials that assume a role providing access to the Score Data DynamoDB table and the Game State S3 bucket using web identity federation.",
+            "C": "Use Login with Amazon allowing users to sign in with an Amazon account providing the mobile app with access to the Score Data DynamoDB table and the Game State S3 bucket. ",
+            "D": "Use an 1AM user with access credentials assigned a role providing access to the Score Data DynamoDB table and the Game State S3 bucket for distribution with the mobile app."
+        }
+    },
+    {
+        "question1": "150. Your company plans to host a large donation website on Amazon Web Services (AWS). You anticipate a large and undetermined amount of traffic that will create many database writes. To be certain that you do not drop any writes to a database hosted on AWS. Which service should you use? ",
+        "list": {
+            "A": "Amazon RDS with provisioned IOPS up to the anticipated peak write throughput. ",
+            "B": "Amazon Simple Queue Service (SOS) for capturing the writes and draining the queue to write to the database. ",
+            "C": "Amazon ElastiCache to store the writes until the writes are committed to the database. ",
+            "D": "Amazon DynamoDB with provisioned write throughput up to the anticipated peak write throughput."
+        },
+        "answer": "A",
+        "answer_mode": "radio",
+        "note": "Reference: http:\/\/docs.aws.amazon.com\/AmazonRDS\/latest\/UserGuide\/CHAP_Storage.html"
+    },
+    {
+        "question1": "151. You have launched an EC2 instance with four (4) 500 GB EBS Provisioned IOPS volumes attached The EC2 Instance Is EBS-Optimized and supports 500 Mbps throughput between EC2 and EBS The two EBS volumes are configured as a single RAID o device, and each Provisioned IOPS volume is provisioned with 4.000 IOPS (4 000 16KB reads or writes) for a total of 16.000 random IOPS on the instance The EC2 Instance initially delivers the expected 16 000 IOPS random read and write performance Sometime later in order to increase the total random I\/O performance of the instance, you add an additional two 500 GB EBS Provisioned IOPS volumes to the RAID Each volume Is provisioned to 4.000 lOPs like the original four for a total of 24.000 IOPS on the EC2 instance Monitoring shows that the EC2 instance CPU utilization increased from 50% to 70%. but the total random IOPS measured at the instance level does not increase at all. What is the problem and a valid solution? ",
+        "list": {
+            "A": "Larger storage volumes support higher Provisioned IOPS rates: increase the provisioned volume storage of each of the 6 EBS volumes to 1TB. ",
+            "B": "The EBS-Optimized throughput limits the total IOPS that can be utilized use an EBS-Optimized instance that provides larger throughput. ",
+            "C": "Small block sizes cause performance degradation, limiting the I'O throughput, configure the instance device driver and file system to use 64KB blocks to increase throughput.",
+            "D": "RAID 0 only scales linearly to about 4 devices, use RAID 0 with 4 EBS Provisioned IOPS volumes but increase each Provisioned IOPS EBS volume to 6.000 IOPS. ",
+            "E": "The standard EBS instance root volume limits the total IOPS rate, change the instant root volume to also be a 500GB 4.000 Provisioned IOPS volume."
+        },
+        "answer": "E",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "152. You have recently joined a startup company building sensors to measure street noise and air quality in urban areas.The company has been running a pilot deployment of around 100 sensors for 3 months Each sensor uploads 1KB of sensor data every minute to a backend hosted on AWS. During the pilot, you measured a peak or 10 IOPS on the database, and you stored an average of 3GB of sensor data per month in the database The current deployment consists of a load-balanced auto scaled Ingestion layer using EC2 instances and a PostgreSQL RDS database with 500GB standard storage. The pilot is considered a success and your CEO has managed to get the attention or some potential investors The business plan requires a deployment of at least 1O0K sensors which needs to be supported by the backend You also need to store sensor data for at least two years to be able to compare year over year Improvements. To secure funding, you have to make sure that the platform meets these requirements and leaves room for further scaling Which setup win meet the requirements?",
+        "list": {
+            "A": "Add an SOS queue to the ingestion layer to buffer writes to the RDS instance ",
+            "B": "Ingest data into a DynamoDB table and move old data to a Redshift cluster ",
+            "C": "Replace the RDS instance with a 6 node Redshift cluster with 96TB of storage ",
+            "D": "Keep the current architecture but upgrade RDS storage to 3TB and 10K provisioned IOPS"
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "153. Your company is in the process of developing a next generation pet collar that collects biometric information to assist families with promoting healthy lifestyles for their pets Each collar will push 30kb of biometric data In JSON format every 2 seconds to a collection platform that will process and analyze the data providing health trending information back to the pet owners and veterinarians via a web portal Management has tasked you to architect the collection platform ensuring the following requirements are met. Provide the ability for real-time analytics of the inbound biometric data Ensure processing of the biometric data is highly durable. Elastic and parallel The results of the analytic processing should be persisted for data mining Which architecture outlined below win meet the initial requirements for the collection platform? ",
+        "list": {
+            "A": "Utilize S3 to collect the inbound sensor data analyze the data from S3 with a daily scheduled Data Pipeline and save the results to a Redshift Cluster. ",
+            "B": "Utilize Amazon Kinesis to collect the inbound sensor data, analyze the data with Kinesis clients and save the results to a Redshift cluster using EMR. ",
+            "C": "Utilize SQS to collect the inbound sensor data analyze the data from SQS with Amazon Kinesis and save the results to a Microsoft SQL Server RDS instance. ",
+            "D": "Utilize EMR to collect the inbound sensor data, analyze the data from EUR with Amazon Kinesis and save me results to DynamoDB."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "154. You need a persistent and durable storage to trace call activity of an IVR (Interactive Voice Response) system. Call duration is mostly in the 2-3 minutes timeframe. Each traced call can be either active or terminated. An external application needs to know each minute the list of currently active calls, which are usually a few calls\/second. Put once per month there is a periodic peak up to 1000 calls\/second for a few hours The system is open 24\/7 and any downtime should be avoided. Historical data is periodically archived to files. Cost saving is a priority for this project. What database implementation would better fit this scenario, keeping costs as low as possible? ",
+        "list": {
+            "A": "Use RDS Multi-AZ with two tables, one for -Active calls\" and one for -Terminated calls\". In this way the \"Active calls_ table is always small and effective to access.",
+            "B": "Use DynamoDB with a \"Calls\" table and a Global Secondary Index on a \"IsActive'\" attribute that is present for active calls only In this way the Global Secondary index is sparse and more effective. ",
+            "C": "Use DynamoDB with a 'Calls\" table and a Global secondary index on a 'State\" attribute that can equal to \"active\" or \"terminated\" in this way the Global Secondary index can be used for all Items in the table. ",
+            "D": "Use RDS Multi-AZ with a \"CALLS\" table and an Indexed \"STATE* field that can be equal to 'ACTIVE\" or -TERMINATED\" In this way the SOL query Is optimized by the use of the Index."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "155. A web design company currently runs several FTP servers that their 250 customers use to upload and download large graphic files They wish to move this system to AWS to make it more scalable, but they wish to maintain customer privacy and Keep costs to a minimum. What AWS architecture would you recommend? ",
+        "list": {
+            "A": "ASK their customers to use an S3 client instead of an FTP client. Create a single S3 bucket Create an IAM user for each customer Put the IAM Users in a Group that has an IAM policy that permits access to sub-directories within the bucket via use of the 'username' Policy variable. ",
+            "B": "Create a single S3 bucket with Reduced Redundancy Storage turned on and ask their customers to use an S3 client instead of an FTP client Create a bucket for each customer with a Bucket Policy that permits access only to that one customer. ",
+            "C": "Create an auto-scaling group of FTP servers with a scaling policy to automatically scale-in when minimum network traffic on the auto-scaling group is below a given threshold. Load a central list of ftp users from S3 as part of the user Data startup script on each Instance. ",
+            "D": "Create a single S3 bucket with Requester Pays turned on and ask their customers to use an S3 client instead of an FTP client Create a bucket tor each customer with a Bucket Policy that permits access only to that one customer."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "156. You have been asked to design the storage layer for an application. The application requires disk performance of at least 100,000 IOPS in addition, the storage layer must be able to survive the loss of an individual disk. EC2 instance, or Availability Zone without any data loss. The volume you provide must have a capacity of at least 3 TB. Which of the following designs will meet these objectives'? ",
+        "list": {
+            "A": "Instantiate an 12 8xlarge instance in us-east-1a Create a RAID 0 volume using the four 800GB SSD ephemeral disks provided with the instance Provision 3x1 TB EBS volumes attach them to the instance and configure them as a second RAID 0 volume Configure synchronous, block-level replication from the ephemeral-backed volume to the EBS-backed volume. ",
+            "B": "Instantiate an 12 8xlarge instance in us-east-1a create a raid 0 volume using the four 800GB SSD ephemeral disks provide with the Instance Configure synchronous block-level replication to an Identically configured Instance in us-east-1b. ",
+            "C": "Instantiate a c3 8xlarge Instance In us-east-1 Provision an AWS Storage Gateway and configure it for 3 TB of storage and 100 000 lOPS Attach the volume to the instance. ",
+            "D": "Instantiate a c3 8xlarge instance in us-east-i provision 4x1TB EBS volumes, attach them to the instance, and configure them as a single RAID 5 volume Ensure that EBS snapshots are performed every 15 minutes. ",
+            "E": "Instantiate a c3 8xlarge Instance in us-east-1 Provision 3x1TB EBS volumes attach them to the instance, and configure them as a single RAID 0 volume Ensure that EBS snapshots are performed every 15 minutes."
+        },
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "157. You would like to create a mirror image of your production environment in another region for disaster recovery purposes. Which of the following AWS resources do not need to be recreated in the second region? (Choose 2 answers) ",
+        "list": {
+            "A": "Route 53 Record Sets ",
+            "B": "IM1 Roles ",
+            "C": "Elastic IP Addresses (EIP) ",
+            "D": "EC2 Key Pairs ",
+            "E": "Launch configurations ",
+            "F": "Security Groups"
+        },
+        "answer": "A,C",
+        "answer_mode": "checkbox",
+        "note": "Reference: http:\/\/ltech.com\/wp-content\/themes\/optimize\/download\/AWS_Disaster_Recovery.pdf (page 6)"
+    },
+    {
+        "question1": "158. Your company runs a customer facing event registration site This site is built with a 3-tier architecture with web and application tier servers and a MySQL database The application requires 6 web tier servers and 6 application tier servers for normal operation, but can run on a minimum of 65% server capacity and a single MySQL database. When deploying this application in a region with three availability zones (AZs) which architecture provides high availability? ",
+        "list": {
+            "A": "A web tier deployed across 2 AZs with 3 EC2 (Elastic Compute Cloud) instances in each AZ inside an Auto Scaling Group behind an ELB (elastic load balancer), and an application tier deployed across 2 AZs with 3 EC2 instances in each AZ inside an Auto Scaling Group behind an ELB. and one RDS (Relational Database Service) instance deployed with read replicas in the other AZ. ",
+            "B": "A web tier deployed across 3 AZs with 2 EC2 (Elastic Compute Cloud) instances in each A2 inside an Auto Scaling Group behind an ELB (elastic load balancer) and an application tier deployed across 3 AZs with 2 EC2 instances in each AZ inside an Auto Scaling Group behind an ELB and one RDS (Relational Database Service) Instance deployed with read replicas in the two other AZs. ",
+            "C": "d A web tier deployed across 2 AZs with 3 EC2 (Elastic Compute Cloud) instances in each AZ inside an Auto Scaling Group behind an ELB (elastic load balancer) and an application tier deployed across 2 AZs with 3 EC2 instances m each AZ inside an Auto Scaling Group behind an ELS and a Multi-AZ RDS (Relational Database Service) deployment. ",
+            "D": "A web tier deployed across 3 AZs with 2 EC2 (Elastic Compute Cloud) instances in each AZ Inside an Auto Scaling Group behind an ELB (elastic load balancer). And an application tier deployed across 3 AZs with 2 EC2 instances In each AZ inside an Auto Scaling Group behind an ELB. And a Multi-AZ RDS (Relational Database services) deployment."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "159. Your application is using an ELB in front of an Auto Scaling group of web\/application servers deployed across two AZs and a Multi-AZ RDS Instance for data persistence. The database CPU is often above 80% usage and 90% of I\/O operations on the database are reads. To improve performance you recently added a single-node Memcached ElastiCache Cluster to cache frequent DB query results. In the next weeks the overall workload is expected to grow by 30%. Do you need to change anything in the architecture to maintain the high availability or the application with the anticipated additional load'* Why?",
+        "list": {
+            "A": "Yes. you should deploy two Memcached ElastiCache Clusters in different AZs because the ROS Instance will not Be able to handle the load It me cache node fails. ",
+            "B": "No. if the cache node fails the automated ElastiCache node recovery feature will prevent any availability impact. ",
+            "C": "Yes you should deploy the Memcached ElastiCache Cluster with two nodes in the same AZ as the RDS DB master instance to handle the load if one cache node fails. ",
+            "D": "No if the cache node fails you can always get the same data from the DB without having any availability impact."
+        },
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "160. You are responsible for a legacy web application whose server environment is approaching end of life You would like to migrate this application to AWS as quickly as possible, since the application environment currently has the following limitations: 1- The VM's single 10GB VMDK is almost full 2- Me virtual network interface still uses the 10Mbps driver, which leaves your 100Mbps WAN connection completely underutilized 3-It is currently running on a highly customized. Windows VM within a VMware environment: 4-You do not have me installation media 5-This is a mission critical application with an RTO (Recovery Time Objective) of 8 hours. RPO (Recovery Point Objective) of 1 hour. How could you best migrate this application to AWS while meeting your business continuity requirements? ",
+        "list": {
+            "A": "Use the EC2 VM Import Connector for vCenter to import the VM into EC2. ",
+            "B": "Use Import\/Export to import the VM as an ESS snapshot and attach to EC2. ",
+            "C": "Use S3 to create a backup of the VM and restore the data into EC2. ",
+            "D": "Use me ec2-bundle-instance API to Import an Image of the VM into EC2"
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "161. An International company has deployed a multi-tier web application that relies on DynamoDB in a single region For regulatory reasons they need disaster recovery capability In a separate region with a Recovery Time Objective of 2 hours and a Recovery Point Objective of 24 hours They should synchronize their data on a regular basis and be able to provision me web application rapidly using CloudFormation. The objective is to minimize changes to the existing web application, control the throughput of DynamoDB used for the synchronization of data and synchronize only the modified elements. Which design would you choose to meet these requirements? ",
+        "list": {
+            "A": "Use AWS data Pipeline to schedule a DynamoDB cross region copy once a day. create a Lastupdated' attribute in your DynamoDB table that would represent the timestamp of the last update and use it as a filter. ",
+            "B": "Use EMR and write a custom script to retrieve data from DynamoDB in the current region using a SCAN operation and push it to QynamoDB in the second region. ",
+            "C": "Use AWS data Pipeline to schedule an export of the DynamoDB table to S3 in the current region once a day then schedule another task immediately after it that will import data from S3 to DynamoDB in the other region. ",
+            "D": "Send also each Ante into an SQS queue in me second region; use an auto-scaiing group behind the SQS queue to replay the write in the second region."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "162. Your company currently has a 2-tier web application running in an on-premises data center. You have experienced several infrastructure failures in the past two months resulting in significant financial losses. Your CIO is strongly agreeing to move the application to AWS. While working on achieving buy-in from the other company executives, he asks you to develop a disaster recovery plan to help improve Business continuity in the short term. He specifies a target Recovery Time Objective (RTO) of 4 hours and a Recovery Point Objective (RPO) of 1 hour or less. He also asks you to implement the solution within 2 weeks. Your database is 200GB in size and you have a 20Mbps Internet connection. How would you do this while minimizing costs? ",
+        "list": {
+            "A": "Create an EBS backed private AMI which includes a fresh install or your application. Setup a script in your data center to backup the local database every 1 hour and to encrypt and copy the resulting file to an S3 bucket using multi-part upload. ",
+            "B": "Install your application on a compute-optimized EC2 instance capable of supporting the application's average load synchronously replicate transactions from your on-premises database to a database instance in AWS across a secure Direct Connect connection. ",
+            "C": "Deploy your application on EC2 instances within an Auto Scaling group across multiple availability zones asynchronously replicate transactions from your on-premises database to a database instance in AWS across a secure VPN connection.",
+            "D": "Create an EBS backed private AMI that includes a fresh install of your application. Develop a Cloud Formation template which includes your Mil and the required EC2. Auto-Scaling and ELB resources to support deploying the application across Multiple-Ability Zones. Asynchronously replicate transactions from your on-premises database to a database instance in AWS across a secure VPN connection."
+        },
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "163. An ERP application is deployed across multiple AZs in a single region. In the event of failure, the Recovery Time Objective (RTO) must be less than 3 hours, and the Recovery Point Objective (RPO) must be 15 minutes the customer realizes that data corruption occurred roughly 1.5 hours ago. What DR strategy could be used to achieve this RTO and RPO in the event of this kind of failure? ",
+        "list": {
+            "A": "Take hourly DB backups to S3, with transaction logs stored in S3 every 5 minutes. ",
+            "B": "Use synchronous database master-slave replication between two availability zones. ",
+            "C": "Take hourly DB backups to EC2 Instance store volumes with transaction logs stored In S3 every 5 minutes. ",
+            "D": "Take 15 minute DB backups stored In Glacier with transaction logs stored in S3 every 5 minutes."
+        },
+        "answer": "C",
+        "answer_mode": "radio"
+    }
+]

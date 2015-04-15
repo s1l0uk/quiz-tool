@@ -1,0 +1,493 @@
+<html>
+<head>
+<title>QUIZ</title>
+<script src="jquery-1.11.1.js"></script>
+<script src="jquery.cookie.js"></script>
+<script src="jquery.blockUI.js"></script>
+
+
+
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+<style type="text/css">
+  .label_ok_selected
+    {
+    background:#00FF00;
+    }
+
+   .label_wrong_selected
+    {
+    background:#FF0000;
+    } 
+
+
+    .label_sel_selected
+    {
+    background:#E5EFA7;
+    }  
+
+
+
+</style>
+</head>
+
+<body style="margin:0px">
+	<script type="text/javascript">
+
+(function($) {
+    $.fn.onEnter = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 13) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+    $.fn.onH = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 104) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+    $.fn.on1 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 49) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+    $.fn.on2 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 50) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+    $.fn.on3 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 51) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+    $.fn.on4 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 52) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+})(jQuery);
+
+
+function roundTo(value, decimals){
+  var i = value * Math.pow(10, decimals);
+  i = Math.round(i);
+  return i / Math.pow(10, decimals);
+}
+
+
+function getUrlVars(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+function cleanArray(actual){
+  var newArray = new Array();
+  for(var i = 0; i<actual.length; i++){
+      if (actual[i]){
+        newArray.push(actual[i]);
+    }
+  }
+  return newArray;
+}
+
+
+var exam = "aws_cert"
+
+var exam_list = [];
+ exam_list["ccns"] = "https://api.myjson.com/bins/34x9j"
+ exam_list["aws_cert"] = "https://api.myjson.com/bins/4fbu3"
+ exam_list["aws"] = "https://api.myjson.com/bins/4yma3"
+
+document.title = exam.toUpperCase();
+
+function printReport () {
+    $( "#form_question" ).hide();
+    $( "#result" ).show();
+    $( "#report" ).show();
+    var done = $( "#q_done" ).val() - 1 
+    console.log( "result done" + done );
+    console.log( "result q_right" + $( "#q_right" ).val() );
+    var per =  $( "#q_right" ).val() * 100 /  done
+    $( "#result" ).append("Percentege:"+roundTo(per,3))
+    
+    if(per > 75 ){
+              $( "#result" ).addClass("label_ok_selected");  
+    }else{
+              $( "#result" ).addClass("label_wrong_selected");  
+    }
+
+    setTimeout(function(){
+       //window.location.reload(1);
+    }, 5000);
+
+  }  
+
+function getQuestion() {
+
+  $('#form_question').block({ 
+                message: '<h1>Process new question...</h1>', 
+                css: { border: '3px solid #a00', } 
+            }); 
+
+
+
+
+
+//$.getJSON( "https://api.myjson.com/bins/4yma3", function( data ) {
+  $.getJSON( exam_list[exam], function( data ) {
+  var items = [];
+  var q_idx = [];
+  
+   $.each( data, function( key, val ) {
+
+    items.push( val );
+  });
+
+
+   
+   $("#q_full").val(items.length);
+
+  if (getUrlVars("q") != ""){
+    var found = false; 
+    for (var i = 0; i < items.length; i++) {
+        console.log()
+        if (items[i]["question1"].indexOf(getUrlVars("q")) === 0){
+           found = true;  
+           var item = items[i];
+           $( "#q_tot" ).val(1);
+           break;
+
+        }
+
+    }
+  
+
+  }else{
+   //$.cookie('q_full_list');
+   var ck = localStorage.getItem('q_full_list');
+   if(ck != null){
+      console.log("not empty use split");
+      var q_done_list = ck.split(",");
+   }else{
+    console.log(" empty default");
+     var q_done_list = [];
+   }
+
+   
+
+   if (q_done_list.length == items.length){
+     console.log("reset question done value");
+     q_done_list = [];
+   }
+
+   for (var i = 0; i < items.length; i++) {
+       var random_id = Math.floor(Math.random()*items.length);
+       console.log("random "+random_id);
+       
+       if($.inArray(random_id.toString(), q_done_list )=== -1 ){
+
+
+        q_done_list.push( random_id );
+        tmp = cleanArray(q_done_list)
+        console.log("new value add to q_full_list "+ tmp.join() );
+        //$.cookie('q_full_list', tmp.join(","));
+        localStorage.setItem('q_full_list',tmp.join(","));
+        break;
+       }
+
+    }
+
+    var item = items[random_id];
+  }
+
+   
+
+
+
+  if(typeof item["answer_mode"] != 'undefined'){
+    var mode=item["answer_mode"];
+  }else{
+   if (item["answer"].search( ',' ) ==  -1 ){
+    var mode="radio";
+   }else{
+    var mode="checkbox";   
+   }
+  }
+
+
+   $( "#solution_str" ).hide();
+   $( "#note_str" ).hide();
+   
+   $("#question").empty().append(item["question1"]+ '<br>'+ '<br>')
+   $("#a_right").empty().val(item["answer"]);
+
+   if(typeof item["note"] != 'undefined'){
+    $("#note_str").empty().append( '<pre style="white-space:normal;max-width:800px">Explanation : '+item["note"]+'</pre>');
+   }else{
+    $("#note_str").empty().append( '<pre></pre>');
+   }
+   $("#answer").empty()
+
+
+   
+   $.each( item["list"], function( key, val ) {
+		  $("#answer").append( '<div class="answer_in"><input type="'+mode+'" name="a_val" value="'+key+'" >'+val+ '</div><br>');
+
+  	});
+
+
+// print hide answer
+if (mode=="radio"){
+    $("#solution_str").empty().append( '<pre>Answer : '+ $('input[name=a_val][value='+$("#a_right").val()+']').parent().text()+'</pre>');
+  }else{
+        
+        var Ar = $("#a_right").val().split(',');
+        var txt = "";
+        for (var i = 0; i < Ar.length; i++) {
+          txt += 'Answer '+(i + 1 )+' : '+$('input[name=a_val][value='+Ar[i]+']').parent().text()+ "\n";
+       }
+       $("#solution_str").empty().append( '<pre> '+ txt+'</pre>'); 
+
+  }
+
+    $('#form_question').unblock(); 
+
+
+}).error(function(jqXHR, textStatus, errorThrown) {
+        console.log( textStatus);
+        console.log( jqXHR);
+        console.log( errorThrown);
+    });
+;
+}
+
+
+
+        var settimmer = 0;
+        $(function(){
+                window.setInterval(function() {
+                    var timeCounter = $("b[id=show-time]").html();
+                    var updateTime = eval(timeCounter)- eval(1);
+                    $("b[id=show-time]").html(updateTime);
+
+                    if(updateTime == 0){
+                        printReport();
+                    }
+                }, 1000);
+
+        });
+
+
+$(document).ready(function() {
+  getQuestion();
+
+
+    $(this).onEnter( function() {
+        console.log("Enter key pressed");
+        if ($("#result").is(':visible')){
+            window.location.reload(1);
+        }else{
+            //$('#accept').click(); 
+            $( "#accept" ).trigger( "click" );
+        }
+                       
+    });
+
+    $(this).onH( function() {
+
+        console.log("ASK HELP");
+        $("#answer .label_ok_selected").removeClass("label_ok_selected");
+
+        if ($("#a_right").val().search( ',' ) ==  -1 ){
+            // radio
+              $( "#answer input[name='a_val'][value='"+$("#a_right").val()+"']" ).parent().addClass("label_ok_selected");                
+            setTimeout(function(){
+               $("#answer .label_ok_selected").removeClass("label_ok_selected");
+            }, 100);
+         }else{
+          //checkbox
+          var Ar = $("#a_right").val().split(',');
+
+        for (var i = 0; i < Ar.length; i++) {
+          $( "#answer input[name='a_val'][value='"+Ar[i]+"']" ).parent().addClass("label_ok_selected");                
+          setTimeout(function(){
+             $("#answer .label_ok_selected").removeClass("label_ok_selected");
+          }, 100);  
+        }
+
+ 
+         }
+        
+    });
+
+
+    $(this).on1( function() {
+      $('input[name=a_val][value=A]').prop("checked",true);
+    });
+
+    $(this).on2( function() {
+      $('input[name=a_val][value=B]').prop("checked",true);
+    });
+
+    $(this).on3( function() {
+      $('input[name=a_val][value=C]').prop("checked",true);
+    });
+
+    $(this).on4( function() {
+      $('input[name=a_val][value=D]').prop("checked",true);
+    });
+
+
+  if (getUrlVars("debug") == "enable"){
+    $( "#q_right" ).show();
+  }else{
+    $( "#q_right" ).hide();
+  }
+
+
+
+
+  $("#solution").click(function(){
+    $( "#solution_str" ).toggle();
+    $( "#note_str" ).toggle();
+
+  });
+
+  $("#accept").click(function(){
+
+    //create report
+    var idx = $( "#report_idx" ).val();
+    $( "#report" ).append('<hr><div id="report_'+idx+'">'+$("#question").html()+$("#answer").html().replace(/a_val/g,'a_val_'+idx)+"</div>");
+    $( "#report_idx" ).val(  parseInt($( "#report_idx" ).val()) + 1 ); 
+
+
+
+        if ($("#a_right").val().search( ',' ) ==  -1 ){
+            // radio
+               // mark selected answer
+          $( "#report_"+idx+" input[type='radio'][value='"+$("#a_right").val()+"']" ).parent().addClass("label_sel_selected");
+          $( "#report_"+idx+" input[type='radio'][value='"+$('#answer input[name=a_val]:checked').val()+"']" ).prop( "checked", true );
+      //mark right answer
+          $( "#report_"+idx+" input[type='radio'][value='"+$("#a_right").val()+"']" ).parent().addClass("label_ok_selected");
+
+         }else{
+          //checkbox
+          var Ar = $("#a_right").val().split(',');
+
+              for (var i = 0; i < Ar.length; i++) {
+
+                    // mark selected answer
+                  $( "#report_"+idx+" input[type='checkbox'][value='"+Ar[i]+"']" ).parent().addClass("label_sel_selected");
+                  //mark right answer
+                  $( "#report_"+idx+" input[type='checkbox'][value='"+Ar[i]+"']" ).parent().addClass("label_ok_selected");
+
+              }
+
+ 
+         }
+
+
+
+    
+
+    $( "#q_done" ).val(  parseInt($( "#q_done" ).val()) + 1 );
+
+    if ($("#a_right").val().search( ',' ) ==  -1 ){
+        // radio check right answer
+          if($('#answer input[name=a_val]:checked').val()  == $("#a_right").val() ){
+            $( "#q_right" ).val(  parseInt($( "#q_right" ).val()) + 1 ); 
+        }
+    }else{
+      // checkbox check right answer
+      var tmp= ""
+      $('#answer input[name=a_val]:checkbox').each(function () {
+        if (this.checked ){
+          tmp += $(this).val() + "," ;
+        }
+      });
+
+      //console.log(tmp.substring(0, tmp.length - 1 ));
+      if ( tmp.substring(0, tmp.length - 1 ) == $("#a_right").val() ){
+            $( "#q_right" ).val(  parseInt($( "#q_right" ).val()) + 1 ); 
+        }
+
+    }
+
+
+
+    var q_done =  parseInt($( "#q_done" ).val());
+    var q_tot =  parseInt($( "#q_tot" ).val());
+
+    if( q_done  > q_tot ){
+      printReport();
+    }else{
+      getQuestion();
+    }
+    
+
+
+  });
+
+
+});
+
+
+	</script>
+
+<div id="form_question" style="height:400px;padding: 10px">
+<div>
+<div id="my-timer" style="position:absolute;right:0px;">
+        Exam finish in <b id="show-time">3600</b> seconds        
+</div>
+
+<br>
+Done <input type="text" id="q_done" name="q_done" value="1" readonly> /<input type="text" name="q_tot" id="q_tot" value="25" readonly> <input type="text" id="q_right" name="q_right" value="0" readonly> <br><br>
+</div>
+<br>
+
+<div id="question"></div>
+<div id="answer"></div>
+
+
+
+
+<div id="mgmt" style="position:absolute;top:370px;">
+  <button id="solution">?</button>
+  <button id="accept">NEXT</button>
+
+  <br>
+  <div id="solution_str" style="display:none;"></div>
+  <div id="note_str" style="display:none;"></div>
+  <input type="hidden" name="a_right" id="a_right" value="">
+  <input type="hidden" name="q_full" id="q_full" value="0">
+</div>
+
+</div>
+<div id="result" style="display:none;">
+</div>
+
+
+<br><br>
+
+<input type="hidden" name="report_idx" id="report_idx" value="1">
+<div id="report"  style="display:none;">
+</div>
+</body>
+</html>

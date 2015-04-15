@@ -1,0 +1,1156 @@
+[
+    {
+        "question1": "1.1: Which are the three primary objectives of security?",
+        "list": {
+            "A": "Integrity",
+            "B": "Confidentiality",
+            "C": "Antireplay functionality",
+            "D": "Authentication",
+            "E": "Availability"
+        },
+        "answer_key": "1.1a,b,e",
+        "answer": "A,B,E",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "1.2: Which are the three categories of controls? ",
+        "list": {
+            "A": "Administrative",
+            "B": "Executive",
+            "C": "Managerial",
+            "D": "Technical",
+            "E": "Physical"
+        },
+        "answer_key": "1.2a,d,e",
+        "answer": "A,D,E",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "1.6: Which is an efficient way to protect against an integrity attack?",
+        "list": {
+            "A": "Strong authentication",
+            "B": "Firewall",
+            "C": "Intrusion prevention system",
+            "D": "Cryptography"
+        },
+        "answer_key": "1.6d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.7: Which provides you with a site where only a communication link and electricity are provided?",
+        "list": {
+            "A": "Warm site",
+            "B": "Cold site",
+            "C": "Hot site",
+            "D": "Backup site"
+        },
+        "answer_key": "1.7b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.8: Which of the following is not part of the technical policies.?",
+        "list": {
+            "A": "End-user policy",
+            "B": "Acceptable usage policy",
+            "C": "Email policy",
+            "D": "VPN access policy",
+            "E": "Network policy",
+            "F": "Wireless policy"
+        },
+        "answer_key": "1.8a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.9: Which are core goals and components of the Cisco Self-Defending Network approach? (choose 4)",
+        "list": {
+            "A": "Threat management",
+            "B": "Appliance management",
+            "C": "Endpoint security",
+            "D": "Return on security investment",
+            "E": "Policy-based management",
+            "F": "Network security"
+        },
+        "answer_key": "1.9a,c,e,f",
+        "answer": "A,C,E,F",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "1.10: Which layer of the OSI model is the current greatest target of security exploits?",
+        "list": {
+            "A": "Application",
+            "B": "Session",
+            "C": "Transport",
+            "D": "Network",
+            "E": "Data link",
+            "F": "Physical"
+        },
+        "answer_key": "1.10a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.11: Which of the following statements is false regarding security issues of custom applications?",
+        "list": {
+            "A": "Companies have many, perhaps hundreds, of different web applications or local databases.",
+            "B": "Employees and contractors may have written the code without security in mind.",
+            "C": "There are no signatures for those customized applications.",
+            "D": "There are no patches for those customized applications.",
+            "E": "These applications are often dynamic and complex.",
+            "F": "Hackers cannot exploit vulnerabilities in customized software because the application is resident on the inside network."
+        },
+        "answer_key": "1.11f",
+        "answer": "F",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.12: From the following items, which does a designer not need to care about when designing network security?",
+        "list": {
+            "A": "The threats that could compromise security",
+            "B": "The impact on hackers of introducing a new security policy",
+            "C": "The associated risk of the threats",
+            "D": "How relevant those threats are for a particular system",
+            "E": "The cost to implement the proper security countermeasures for a threat",
+            "F": "A cost versus benefit analysis to determine whether it is worthwhile to implement a security countermeasure"
+        },
+        "answer_key": "1.12b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.13: What do you call an attack in which the attacker sends a continuous stream of packets from different sources toward the same destination?",
+        "list": {
+            "A": "Denial-of-service attack",
+            "B": "Classification attack",
+            "C": "Distributed denial-of-service attack",
+            "D": "Ping of death",
+            "E": "Smurf attack"
+        },
+        "answer_key": "1.13c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.15: Which of the following is not a criteria on used to classify data?",
+        "list": {
+            "A": "Value",
+            "B": "Age",
+            "C": "Useful life",
+            "D": "Copyright",
+            "E": "Personal association"
+        },
+        "answer_key": "1.15d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.17: Which of the following is a technical control?",
+        "list": {
+            "A": "Network Admission Control system",
+            "B": "Security policies and standards",
+            "C": "Security audits",
+            "D": "Security awareness training",
+            "E": "Change and configuration management"
+        },
+        "answer_key": "1.17a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.18: Which of the following is not a characteristic of defense in depth?",
+        "list": {
+            "A": "Security mechanisms back each other up.",
+            "B": "Security mechanisms do not depend on each other.",
+            "C": "Does not require IDS or IPS.",
+            "D": "The weakest links can be augmented so that single points of failure can be eliminated."
+        },
+        "answer_key": "1.18c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.19: Match the specific man-in-the-middle attack with its specific characteristic.",
+        "list": {
+            "A": "Nonblind attack = Network packet sniffer required ",
+            "B": "Blind attack = Relies on routing and transport protocols to compromise target"
+        },
+        "answer_key": "1.19a,b",
+        "answer": "A,B",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "1.22: Which of the following defines the steps that are taken when an outage occurs?",
+        "list": {
+            "A": "Business continuity planning",
+            "B": "Disaster recovery planning",
+            "C": "Service level agreement",
+            "D": "Acceptable usage policy"
+        },
+        "answer_key": "1.22b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.23: Which of the following security concepts limits a user s rights to the lowest possible level needed to perform his tasks?",
+        "list": {
+            "A": "Need to know",
+            "B": "Least privilege",
+            "C": "Universal participation",
+            "D": "Diversity of defense"
+        },
+        "answer_key": "1.23b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.24: Which of the following might not be a benefit of Cisco Self-Defending Networks?",
+        "list": {
+            "A": "Reduces initial acquisition costs",
+            "B": "Reduces integration costs",
+            "C": "Allows proactive and planned upgrades",
+            "D": "Improves efficiency of security management"
+        },
+        "answer_key": "1.24a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "1.25: Which are the three elements of threat control and containment?",
+        "list": {
+            "A": "Threat control for endpoints",
+            "B": "Threat control for infrastructure",
+            "C": "Threat control for email",
+            "D": "Threat control for applications"
+        },
+        "answer_key": "1.25a,b,c",
+        "answer": "A,B,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "2.1: What are the three areas of router security?",
+        "list": {
+            "A": "Physical security",
+            "B": "Authentication server hardening",
+            "C": "Operating system",
+            "D": "Router hardening"
+        },
+        "answer_key": "2.1a,c,d",
+        "answer": "A,C,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "2.2: Which of the following is the first step to secure Cisco router administrative access?",
+        "list": {
+            "A": "Configure a AAA server",
+            "B": "Configure SDM access",
+            "C": "Configure secure system passwords",
+            "D": "Configure local database authentication"
+        },
+        "answer_key": "2.2c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.3: Which two statements are true about passwords?",
+        "list": {
+            "A": "The console port does not require a password for console administrative access.",
+            "B": "Passwords can not include symbols and spaces.",
+            "C": "You can use either the enable password or the enable secret password to enter the enable mode when both are configured on a router.",
+            "D": "The enable secret password is always hashed inside the router configuration using a MD5 hashing algorithm."
+        },
+        "answer_key": "2.3a,d",
+        "answer": "A,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "2.4: How do you interpret the following console port command: exec-timeout 3 30?",
+        "list": {
+            "A": "The connection closes after 3 minutes of inactivity and 30 minutes of absolute connectivity.",
+            "B": "The connection closes after 3 minutes and 30 seconds of inactivity.",
+            "C": "The connection closes after 3 hours of absolute connectivity and after 30 minutes of inactivity.",
+            "D": "The connection closes after 3 hours and 30 minutes of inactivity."
+        },
+        "answer_key": "2.4b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.5: What is the purpose of the 5 in the following command: username Admin secret 5 $1$feb0$a104Qd9UZ.\/Ak00KTggPD0?",
+        "list": {
+            "A": "The encrypted password will be converted to cleartext in the running-configuration using MD5.",
+            "B": "The user Admin has privilege level 5 in this router.",
+            "C": "The user Admin has 5 attempts to log in this router.",
+            "D": "The encrypted-secret password was hashed with MD5."
+        },
+        "answer_key": "2.5d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.6: What is the purpose of the command parser view?",
+        "list": {
+            "A": "It creates different views of router configuration for different users.",
+            "B": "It provides a root view of all commands.",
+            "C": "It configures a password for a view.",
+            "D": "It is used to enter commands accessible for that view."
+        },
+        "answer_key": "2.6a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.7: Which command would you use to enable Cisco IOS resilience?",
+        "list": {
+            "A": "secure boot-ios",
+            "B": "secure boot-config",
+            "C": "secure boot-image",
+            "D": "secure boot-flash"
+        },
+        "answer_key": "2.7c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.8: Which of the following is not a file required in flash if you want to run Cisco SDM from that router? a. sdm.tar",
+        "list": {
+            "A": "common.tar c. home.html d. home.tar"
+        },
+        "answer_key": "2.8c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.9: Cisco SDM automatically synchronizes with the router configuration after a change?",
+        "list": {
+            "A": "True",
+            "B": "False"
+        },
+        "answer_key": "2.9b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.10: Which SDM task would you use to configure One-Step Lockdown?",
+        "list": {
+            "A": "Firewall and ACL",
+            "B": "Security Audit",
+            "C": "Intrusion prevention",
+            "D": "Additional tasks"
+        },
+        "answer_key": "2.10b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.11: What command is used to enable AAA on a router?",
+        "list": {
+            "A": "aaa enable",
+            "B": "aaa authentication new-model",
+            "C": "aaa tacacs+",
+            "D": "aaa new-model"
+        },
+        "answer_key": "2.11d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.12: Which of the following is not supported by Cisco Secure ACS?",
+        "list": {
+            "A": "StreetTalk Directory Services",
+            "B": "Novell Directory Services",
+            "C": "One-time passwords",
+            "D": "ODBC databases"
+        },
+        "answer_key": "2.12a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.13: Which portion of a RADIUS packet is sent in cleartext?",
+        "list": {
+            "A": "All portions",
+            "B": "All portions except for the password",
+            "C": "All portions except for the CHAP password",
+            "D": "All portions except for the username"
+        },
+        "answer_key": "2.13b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.14: RADIUS is scheduled to be replaced by: ",
+        "list": {
+            "A": "PERIMETER",
+            "B": "CIRCUMFERENCE ",
+            "C": "DIAMETER",
+            "D": "PI"
+        },
+        "answer_key": "2.14c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.15: What is meant by \u201cout-of-band\u201d management?",
+        "list": {
+            "A": "The management traffic is sent through a control channel similar to the D channel in ISDN.",
+            "B": "The management traffic flows within a network on which no production traffic resides.",
+            "C": "The management traffic flows across the enterprise production network.",
+            "D": "The management traffic hogs most of the usable bandwidth."
+        },
+        "answer_key": "2.15b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.16: What is the main advantage of Cisco Security MARS over a standard syslog server?",
+        "list": {
+            "A": "Selective repository for syslog messages",
+            "B": "Limitless storage capacity",
+            "C": "Multipurpose response capabilities",
+            "D": "Central repository and analysis of syslog messages"
+        },
+        "answer_key": "2.16d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.17: Which is an advantage of using SSH rather than Telnet to establish a management connection to a router?",
+        "list": {
+            "A": "SSH is faster.",
+            "B": "SSH uses less bandwidth.",
+            "C": "SSH provides an encrypted connection.",
+            "D": "SSH is readily available on all Cisco IOS routers."
+        },
+        "answer_key": "2.17c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.18: Which of the following protocols is automatically enabled once RSA keys have been generated?",
+        "list": {
+            "A": "Telnet ",
+            "B": "SDM ",
+            "C": "SSH",
+            "D": "HTTPS"
+        },
+        "answer_key": "2.18c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.19: What is the minimum recommended key length for RSA key pairs?",
+        "list": {
+            "A": "Modulus 1024",
+            "B": "Modulus 512",
+            "C": "56-bit encryption",
+            "D": "128-bit encryption"
+        },
+        "answer_key": "2.19a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "2.20: What is the purpose of the crypto key zeroize rsa command?",
+        "list": {
+            "A": "To generate a new key pair",
+            "B": "To establish the fully qualified domain name (FQDN)",
+            "C": "To accept incoming connection on CON 0 and VTY 0",
+            "D": "To override existing key pairs"
+        },
+        "answer_key": "2.20d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.1: Which of the following is not a firewall?",
+        "list": {
+            "A": "Static packet filters",
+            "B": "URL filters",
+            "C": "Application layer gateways",
+            "D": "Proxy servers"
+        },
+        "answer_key": "3.1b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.2: Which of the following is not a limitation or an issue for a stateful firewall?",
+        "list": {
+            "A": "Stateful firewalls cannot prevent application layer attacks.",
+            "B": "Stateful firewalls can provide only limited support to protocols that are not stateful.",
+            "C": "Some applications open multiple connections and therefore are incompatible with some Stateful firewalls.",
+            "D": "Stateful firewall cannot provide a defense against spoofing attacks."
+        },
+        "answer_key": "3.2d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.4: Which threats cannot be mitigated using ACLs?",
+        "list": {
+            "A": "Malicious payloads",
+            "B": "DoS TCP SYN attacks",
+            "C": "ICMP message filtering",
+            "D": "IP address spoofing"
+        },
+        "answer_key": "3.4a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.5: Cisco routers are certified by which of the following? Select all that apply.",
+        "list": {
+            "A": "FIPS 140",
+            "B": "NITS",
+            "C": "CMVP",
+            "D": "Common Criteria"
+        },
+        "answer_key": "3.5a,d",
+        "answer": "A,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "3.6: Select the ACL numbers for a standard access list.",
+        "list": {
+            "A": "100\u2013199 ",
+            "B": "1\u201399",
+            "C": "1300\u20131999 ",
+            "D": "0\u201399"
+        },
+        "answer_key": "3.6b,c",
+        "answer": "B,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "3.7: Which wildcard mask would match for IP subnets 172.30.16.0\/24 to 172.30.31.0\/24? ",
+        "list": {
+            "A": "0.0.31.255",
+            "B": "0.0.0.255",
+            "C": "0.0.255.255",
+            "D": "0.0.15.255"
+        },
+        "answer_key": "3.7d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.8: Which of the following is not an action of zone-based policy firewalls?",
+        "list": {
+            "A": "Drop ",
+            "B": "Reset ",
+            "C": "Pass",
+            "D": "Inspect"
+        },
+        "answer_key": "3.8b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.10: When using zone-based policy, for traffic to flow among all the interfaces in a router, all of the interfaces must be which of the following?",
+        "list": {
+            "A": "Configured with the SDM Wizard",
+            "B": "A member of a security zone",
+            "C": "Placed in a virtual template",
+            "D": "A member of a dialer interface"
+        },
+        "answer_key": "3.10b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.11: What is the role of class maps?",
+        "list": {
+            "A": "They group interfaces to which security policies will be applied.",
+            "B": "They allow to specify a unidirectional firewall policy between two security zones.",
+            "C": "They specify the actions to be taken when traffic matches the criteria.",
+            "D": "They identify traffic and traffic parameters that a Cisco IOS zone-based policy firewall selects for policy application."
+        },
+        "answer_key": "3.11d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.12: Finish the sentence with the most accurate statement. CBAC...",
+        "list": {
+            "A": "Performs traffic filtering based on application level protocol information",
+            "B": "Uses only ACLs to control traffic",
+            "C": "Is configured with the Cisco Common Classification Policy Language (C3PL)",
+            "D": "Uses a hierarchical structure to define inspection for network protocols"
+        },
+        "answer_key": "3.12a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.13: Which of the following is an accurate access list to allow outbound traffic of guests accessing to their incoming mail server?",
+        "list": {
+            "A": "access-list 101 permit tcp any any eq 25",
+            "B": "access-list 101 permit tcp any eq 25 any",
+            "C": "access-list 101 permit tcp any eq 110 any",
+            "D": "access-list 101 permit tcp any any eq 110"
+        },
+        "answer_key": "3.13d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "3.14: Which of the following is not a caveat regarding ACLs?",
+        "list": {
+            "A": "You need to use extended ACLs to implement security policies.",
+            "B": "Beware of the implicit deny all at the bottom of ACLs.",
+            "C": "Place more specific statements higher in ACLs.",
+            "D": "Ensure that statements at the top of ACLs do not negate statements found lower in the list."
+        },
+        "answer_key": "3.14a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.1: Asymmetric encryption utilizes which of the following?",
+        "list": {
+            "A": "A complex solution to leverage certificate",
+            "B": "Key pairs to accomplish encryption",
+            "C": "All types of authentication as long as they support PKI procedures",
+            "D": "A central authority that signs public keys in a network"
+        },
+        "answer_key": "4.1b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.2: Select all the desirable features of an encryption algorithm.",
+        "list": {
+            "A": "Resistance to known cryptanalytic attack",
+            "B": "Short lengths and scalability of the key for easy storage",
+            "C": "No export or import restrictions",
+            "D": "Susceptible to the \u201cavalanche effect\u201d; a small change in plaintext causes substantial changes in ciphertext"
+        },
+        "answer_key": "4.2a,c,d",
+        "answer": "A,C,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "4.3: Select all the asymmetrical algorithms.",
+        "list": {
+            "A": "ElGamal",
+            "B": "DH",
+            "C": "Elliptic curve",
+            "D": "RC4",
+            "E": "IDEA"
+        },
+        "answer_key": "4.3a,b,c",
+        "answer": "A,B,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "4.4: Which of the following does not apply to cryptographic hashes?",
+        "list": {
+            "A": "They are based on one-way functions.",
+            "B": "They are used for integrity assurance.",
+            "C": "They hash arbitrary data into fixed-length digest known as a fingerprint.",
+            "D": "It is feasible for an attacker to have two different sets of data that would come up with the same fingerprint."
+        },
+        "answer_key": "4.4d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.5: DES operates in which two block cipher modes?",
+        "list": {
+            "A": "ECB",
+            "B": "CFB",
+            "C": "CBC",
+            "D": "OFB"
+        },
+        "answer_key": "4.5a,c",
+        "answer": "A,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "4.6: Which algorithm is used in AES? ",
+        "list": {
+            "A": "Twofish",
+            "B": "RC6",
+            "C": "RC4",
+            "D": "Rijndael"
+        },
+        "answer_key": "4.6d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.7: Which of the following statements regarding public-key authentication is true?",
+        "list": {
+            "A": "When the private key is used to encrypt, the corresponding public key is used to decrypt.",
+            "B": "Because the public key is present on only one system, authentication is assured when its private key decrypts the message.",
+            "C": "Great effort is made to maintain the secrecy of the public keys.",
+            "D": "Public-key scenario is used for producing fingerprint."
+        },
+        "answer_key": "4.7a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.8: Which set of algorithms provides the most secure communication?",
+        "list": {
+            "A": "AES, SHA-1",
+            "B": "3DES, SHA-1",
+            "C": "3DES, MD5",
+            "D": "AES, MD5"
+        },
+        "answer_key": "4.8a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.9: Which of the following statements best describe a digital signature?",
+        "list": {
+            "A": "A digital signature is a message digest encrypted with the sender\u2019s public key.",
+            "B": "A digital signature is a message digest encrypted with the receiver\u2019s public key.",
+            "C": "A digital signature is a message digest encrypted with the sender\u2019s private key.",
+            "D": "A digital signature is a message digest encrypted with the receiver\u2019s public key."
+        },
+        "answer_key": "4.9c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.10: Complete the sentence with the best statement: The Vigene\u0300re cipher is _______.",
+        "list": {
+            "A": "A polyalphabetic cipher",
+            "B": "A polymorphic cipher",
+            "C": "A polybius square cipher",
+            "D": "An alphabetum cipher"
+        },
+        "answer_key": "4.10a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.11: Which protocol encrypts at the session layer of the OSI model?",
+        "list": {
+            "A": "IPsec ",
+            "B": "Enigma ",
+            "C": "SSL",
+            "D": "MD5"
+        },
+        "answer_key": "4.11c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.12: Which statement is most accurate when describing aspects of a birthday attack?",
+        "list": {
+            "A": "An attacker tries every possible key with the decryption algorithm.",
+            "B": "The attacker has the ciphertext of several messages, all of which have been encrypted using the same encryption algorithm.",
+            "C": "If some function, when supplied with a random input, returns one of k equally likely values, then by repeating the function with different inputs, the same output would be expected after 1.2k1\/2 number of times.",
+            "D": "The attacker knows a portion of the plaintext and the corresponding ciphertext."
+        },
+        "answer_key": "4.12c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "4.13: Which statement best describes MD5?",
+        "list": {
+            "A": "MD5 is a one-way function that makes it difficult to compute a hash from the given input data, but makes it feasible to compute input data given only a hash.",
+            "B": "MD5 is a one-way function that makes it easy to compute a hash from the given output data, but makes it unfeasible to compute input data given only a hash.",
+            "C": "MD5 is a one-way function that makes it difficult to compute a hash from the given output data, but makes it feasible to compute input data given only a hash.",
+            "D": "MD5 is a one-way function that makes it easy to compute a hash from the given input data, but makes it unfeasible to compute input data given only a hash."
+        },
+        "answer_key": "4.13d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.1: Which two modes of SSL VPN are currently available with Cisco IOS?",
+        "list": {
+            "A": "IPS",
+            "B": "Citrix",
+            "C": "Clientless",
+            "D": "Thin client"
+        },
+        "answer_key": "5.1c,d",
+        "answer": "C,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "5.2: Which of the following is not a security function provided by IPsec?",
+        "list": {
+            "A": "Confidentiality",
+            "B": "Key management",
+            "C": "Antireplay",
+            "D": "Authentication",
+            "E": "Integrity"
+        },
+        "answer_key": "5.2b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.3: Which of the following are peer-authentication methods with IPsec?",
+        "list": {
+            "A": "PSK",
+            "B": "RSA signatures",
+            "C": "RSA encrypted nonces",
+            "D": "HMAC-SHA1",
+            "E": "HMAC-MD5"
+        },
+        "answer_key": "5.3a,b,c",
+        "answer": "A,B,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "5.4: Which three modes are used by IKE to secure communications?",
+        "list": {
+            "A": "Simple mode",
+            "B": "Basic mode",
+            "C": "Advanced mode",
+            "D": "Quick mode",
+            "E": "Aggressive mode",
+            "F": "Main mode"
+        },
+        "answer_key": "5.4d,e,f",
+        "answer": "D,E,F",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "5.5: Which command is better suited to show that traffic is flowing through the VPN tunnel?",
+        "list": {
+            "A": "show crypto map",
+            "B": "show crypto ipsec transform-set",
+            "C": "show crypto isakmp policy",
+            "D": "show crypto ipsec sa"
+        },
+        "answer_key": "5.5d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.6: Which command would help troubleshoot a Phase I issue?",
+        "list": {
+            "A": "debug crypto sa",
+            "B": "debug crypto phase 1",
+            "C": "debug crypto isakmp",
+            "D": "show crypto sa"
+        },
+        "answer_key": "5.6c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.7: Which command would be the most helpful to compare the configuration of peer, ACL, SA lifetime and transform sets?",
+        "list": {
+            "A": "debug crypto sa",
+            "B": "show crypto isakmp sa",
+            "C": "show crypto map sa",
+            "D": "show crypto map"
+        },
+        "answer_key": "5.7d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.8: Which of the following is not part of a cryto map configuration?",
+        "list": {
+            "A": "Peer",
+            "B": "Diffie-Hellman group",
+            "C": "Transform set",
+            "D": "Lifetime"
+        },
+        "answer_key": "5.8b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "5.10: Which statement is true regarding how ESP and AH segments are encapsulated in IP packets?",
+        "list": {
+            "A": "In transport mode, security is provided only for the transport layer and below.",
+            "B": "In tunnel mode, security is provided for the complete original IP packet.",
+            "C": "In tunnel mode, security is provided only for the transport layer and above.",
+            "D": "In transport mode, security is provided for the entire IP packet."
+        },
+        "answer_key": "5.10b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.1: Which two modes of IPS operations are currently available with Cisco IDS and IPS solutions? Select all that apply.",
+        "list": {
+            "A": "Out-of-band b. Promiscuous c. Multicasting d. Inline"
+        },
+        "answer_key": "6.1b,d",
+        "answer": "B,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "6.2: Which device cannot be an IDS or IPS sensor?",
+        "list": {
+            "A": "A Cisco router configured with IPS software",
+            "B": "A Cisco VPN concentrator configured with IPS software",
+            "C": "An appliance specifically designed to provide dedicated IDS or IPS services",
+            "D": "A IDS\/IPS network module installed in a Cisco ASA or in a switch or in a router"
+        },
+        "answer_key": "6.2b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.3: Which general patterns of misuse do IDS and IPS technologies look for? (Choose all that apply.)",
+        "list": {
+            "A": "Atomic pattern",
+            "B": "Molecular pattern",
+            "C": "Intrusive nonces",
+            "D": "Composite pattern",
+            "E": "Composition pattern"
+        },
+        "answer_key": "6.3a,d",
+        "answer": "A,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "6.4: Which of the following is not a type of IDS or IPS sensor?",
+        "list": {
+            "A": "Signature based",
+            "B": "Policy based",
+            "C": "Transgression based",
+            "D": "Anomaly based",
+            "E": "Honeypot based"
+        },
+        "answer_key": "6.4c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.5: What are signature engines?",
+        "list": {
+            "A": "A set of rules that an IDS and an IPS use to detect typical intrusive activity",
+            "B": "A full-feature intrusion prevention located in the core network fabric device",
+            "C": "An internal security service module that provides dedicated CPU and memory to offload intrusion prevention processing.",
+            "D": "A component of an IDS and IPS sensor that supports a group of signatures that are in a common category"
+        },
+        "answer_key": "6.5d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.7: Which of the following are advantages of a network-based IPS?",
+        "list": {
+            "A": "Cost-effective",
+            "B": "Provides application-level encryption protection",
+            "C": "Is host specific",
+            "D": "Analyzes lower-level network events",
+            "E": "Not visible on the network"
+        },
+        "answer_key": "6.7a,d,e",
+        "answer": "A,D,E",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "6.8: Which IPS card could integrate into a Cisco 1841?",
+        "list": {
+            "A": "Cisco IDSM-2",
+            "B": "Cisco ASA AIP SSM",
+            "C": "Cisco IPS AIM",
+            "D": "Cisco IPS 4200 series sensor"
+        },
+        "answer_key": "6.8c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.9: What is an IPS signature?",
+        "list": {
+            "A": "A message digest encrypted with the sender\u2019s private key",
+            "B": "A set of rules used to detect typical intrusive activity",
+            "C": "A binary pattern specific to a virus",
+            "D": "An appliance that provides anti-x services"
+        },
+        "answer_key": "6.9b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "6.10: Compiling a regular expression found in a signature requires more memory than the final storage of the regular expression. True or False?",
+        "list": {
+            "A": "True ",
+            "B": "False"
+        },
+        "answer_key": "6.10a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.1: A buffer overflow exploit tries to do which of the following?",
+        "list": {
+            "A": "Extract data from vulnerable host",
+            "B": "Overwrite memory on the stack of an application",
+            "C": "Disguise itself as a worm",
+            "D": "React as a Trojan horse"
+        },
+        "answer_key": "7.1b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.2: IronPort products provide protection against what? (Choose the three best answers.)",
+        "list": {
+            "A": "Buffer overflows",
+            "B": "Spam",
+            "C": "Malware",
+            "D": "Sniffing",
+            "E": "Privilege escalation",
+            "F": "Spyware"
+        },
+        "answer_key": "7.2b,c,f",
+        "answer": "B,C,F",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "7.3: Which of the following are Cisco NAC Appliance characteristics? (Choose two.)",
+        "list": {
+            "A": "Software module embedded with NAC-enabled products",
+            "B": "Self-contained solution",
+            "C": "In-band solution that can be used on any Cisco switch or router",
+            "D": "Integrated framework leveraging multiple vendor products"
+        },
+        "answer_key": "7.3b,c",
+        "answer": "B,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "7.4: Define logical unit number (LUN).",
+        "list": {
+            "A": "A worldwide name 64-bit address that Fibre Channel networks use to uniquely identify each element in a Fibre Channel network",
+            "B": "A collection of ports from a set of connected Fibre channel switches",
+            "C": "An address for an individual disk drive and, by extension, the disk device itself",
+            "D": "An I\/O adapter that sits between the bus of the host computer and the Fibre Channel loop"
+        },
+        "answer_key": "7.4b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.5: Factors motivating the installation of a VoIP infrastructure include which of the following? (Choose three.)",
+        "list": {
+            "A": "Cost savings",
+            "B": "Simplicity",
+            "C": "Flexibility",
+            "D": "Advanced features",
+            "E": "Carefree maintenance"
+        },
+        "answer_key": "7.5a,c,d",
+        "answer": "A,C,D",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "7.6: Which of the following is not a valid statement regarding assigning voice traffic to specific VLANs?",
+        "list": {
+            "A": "To logically segment voice and data traffic to increase.",
+            "B": "To ensure communication privacy and integrity.",
+            "C": "It is seldom used in the industry.",
+            "D": "It makes it easier to apply VLAN access list."
+        },
+        "answer_key": "7.6c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.7: Which of the following commands should not be used on a trunk port when attempting to protect against VLAN hopping?",
+        "list": {
+            "A": "switchport mode access",
+            "B": "switchport mode trunk",
+            "C": "switchport nonegotiate",
+            "D": "switchport trunk native vlan"
+        },
+        "answer_key": "7.7a",
+        "answer": "A",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.8: Which two commands best protects a switched network from a hacker who is trying to preempt an election of the Spanning Tree Protocol?",
+        "list": {
+            "A": "spanning-tree portfast bpduguard",
+            "B": "spanning-tree portfast default",
+            "C": "spanning-tree guard root",
+            "D": "swithport port-security violation"
+        },
+        "answer_key": "7.8a,c",
+        "answer": "A,C",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "7.9: Which command limits the number of MAC addresses communicating through the same switch port?",
+        "list": {
+            "A": "switchport mode access",
+            "B": "switchport port-security maximum",
+            "C": "switch port-security mac-address sticky",
+            "D": "switch port-security violation"
+        },
+        "answer_key": "7.9b",
+        "answer": "B",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.10: Which feature could be used to facilitate the use of an IDS sensor on a switched network?",
+        "list": {
+            "A": "IronPort",
+            "B": "Cisco Network Admission Control",
+            "C": "Switched Port Analyzer",
+            "D": "Storm control"
+        },
+        "answer_key": "7.10c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.11: Which best describe the concept of least privilege?",
+        "list": {
+            "A": "Having small, easily verifiable pieces of software",
+            "B": "An access control concept that refers to a mechanism that mediates all access to object",
+            "C": "An operating system that provides isolation between processes",
+            "D": "A process that is never given more privilege than is necessary to perform a job"
+        },
+        "answer_key": "7.11d",
+        "answer": "D",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.12: Which two Cisco solutions when combined provide protection of operating system vulnerabilities?",
+        "list": {
+            "A": "Cisco CSA",
+            "B": "Cisco NAC",
+            "C": "Cisco ASA",
+            "D": "Cisco MARS"
+        },
+        "answer_key": "7.12a,b",
+        "answer": "A,B",
+        "answer_mode": "checkbox"
+    },
+    {
+        "question1": "7.13: Why should you worry about Layer 2 security?",
+        "list": {
+            "A": "Switches cannot regulate the flow of data between their ports.",
+            "B": "You don\u2019t have to worry about Layer 2 security because it is lower than the IP layer and that most attacks happen at the network layer.",
+            "C": "Domino effect.",
+            "D": "VLANs are a Layer 3 function in a switch, and therefore, as with any other Layer 3 processes, it can be easily hacked."
+        },
+        "answer_key": "7.13c",
+        "answer": "C",
+        "answer_mode": "radio"
+    },
+    {
+        "question1": "7.15: For which reason should IP phones, VoIP gateways, and network management workstations be on their own subnet?",
+        "list": {
+            "A": "Many simple, yet dangerous attacks can be launched if the attacking device resides within the same broadcast domain as the target system.",
+            "B": "Devices are easier to manage if they are located on their own subnet.",
+            "C": "It is easier to set SSH access rules in the Cisco security appliances for a distinctive subnet.",
+            "D": "With separate subnets, VLANs can be used to control the access to the physical network."
+        },
+        "answer_key": "7.15a",
+        "answer": "A",
+        "answer_mode": "radio"
+    }
+]

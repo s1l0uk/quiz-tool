@@ -1,0 +1,489 @@
+1. Which are the three primary objectives of security?
+a. Integrity
+b. Confidentiality
+c. Antireplay functionality
+d. Authentication
+e. Availability
+2. Which are the three categories of controls? 
+a. Administrative
+b. Executive
+c. Managerial
+d. Technical
+e. Physical
+6. Which is an efficient way to protect against an integrity attack?
+a. Strong authentication
+b. Firewall
+c. Intrusion prevention system
+d. Cryptography
+7. Which provides you with a site where only a communication link and electricity are provided?
+a. Warm site
+b. Cold site
+c. Hot site
+d. Backup site
+8. Which of the following is not part of the technical policies.?
+a. End-user policy
+b. Acceptable usage policy
+c. Email policy
+d. VPN access policy
+e. Network policy
+f. Wireless policy
+9. Which are core goals and components of the Cisco Self-Defending Network approach? (choose 4)
+a. Threat management
+b. Appliance management
+c. Endpoint security
+d. Return on security investment
+e. Policy-based management
+f. Network security
+10. Which layer of the OSI model is the current greatest target of security exploits?
+a. Application
+b. Session
+c. Transport
+d. Network
+e. Data link
+f. Physical
+11. Which of the following statements is false regarding security issues of custom applications?
+a. Companies have many, perhaps hundreds, of different web applications or local databases.
+b. Employees and contractors may have written the code without security in mind.
+c. There are no signatures for those customized applications.
+d. There are no patches for those customized applications.
+e. These applications are often dynamic and complex.
+f. Hackers cannot exploit vulnerabilities in customized software because the application is resident on the inside network.
+12. From the following items, which does a designer not need to care about when designing network security?
+a. The threats that could compromise security
+b. The impact on hackers of introducing a new security policy
+c. The associated risk of the threats
+d. How relevant those threats are for a particular system
+e. The cost to implement the proper security countermeasures for a threat
+f. A cost versus benefit analysis to determine whether it is worthwhile to implement a security countermeasure
+13. What do you call an attack in which the attacker sends a continuous stream of packets from different sources toward the same destination?
+a. Denial-of-service attack
+b. Classification attack
+c. Distributed denial-of-service attack
+d. Ping of death
+e. Smurf attack
+15. Which of the following is not a criteria on used to classify data?
+a. Value
+b. Age
+c. Useful life
+d. Copyright
+e. Personal association
+17. Which of the following is a technical control?
+a. Network Admission Control system
+b. Security policies and standards
+c. Security audits
+d. Security awareness training
+e. Change and configuration management
+18. Which of the following is not a characteristic of defense in depth?
+a. Security mechanisms back each other up.
+b. Security mechanisms do not depend on each other.
+c. Does not require IDS or IPS.
+d. The weakest links can be augmented so that single points of failure can be eliminated.
+19. Match the specific man-in-the-middle attack with its specific characteristic.
+a. Nonblind attack = Network packet sniffer required 
+b. Blind attack = Relies on routing and transport protocols to compromise target
+22. Which of the following defines the steps that are taken when an outage occurs?
+a. Business continuity planning
+b. Disaster recovery planning
+c. Service level agreement
+d. Acceptable usage policy
+23. Which of the following security concepts limits a user s rights to the lowest possible level needed to perform his tasks?
+a. Need to know
+b. Least privilege
+c. Universal participation
+d. Diversity of defense
+24. Which of the following might not be a benefit of Cisco Self-Defending Networks?
+a. Reduces initial acquisition costs
+b. Reduces integration costs
+c. Allows proactive and planned upgrades
+d. Improves efficiency of security management
+25. Which are the three elements of threat control and containment?
+a. Threat control for endpoints
+b. Threat control for infrastructure
+c. Threat control for email
+d. Threat control for applications
+1. What are the three areas of router security?
+a. Physical security
+b. Authentication server hardening
+c. Operating system
+d. Router hardening
+2. Which of the following is the first step to secure Cisco router administrative access?
+a. Configure a AAA server
+b. Configure SDM access
+c. Configure secure system passwords
+d. Configure local database authentication
+3. Which two statements are true about passwords?
+a. The console port does not require a password for console administrative access.
+b. Passwords can not include symbols and spaces.
+c. You can use either the enable password or the enable secret password to enter the enable mode when both are configured on a router.
+d. The enable secret password is always hashed inside the router configuration using a MD5 hashing algorithm.
+4. How do you interpret the following console port command: exec-timeout 3 30?
+a. The connection closes after 3 minutes of inactivity and 30 minutes of absolute connectivity.
+b. The connection closes after 3 minutes and 30 seconds of inactivity.
+c. The connection closes after 3 hours of absolute connectivity and after 30 minutes of inactivity.
+d. The connection closes after 3 hours and 30 minutes of inactivity.
+5. What is the purpose of the 5 in the following command: username Admin secret 5 $1$feb0$a104Qd9UZ./Ak00KTggPD0?
+a. The encrypted password will be converted to cleartext in the running-configuration using MD5.
+b. The user Admin has privilege level 5 in this router.
+c. The user Admin has 5 attempts to log in this router.
+d. The encrypted-secret password was hashed with MD5.
+6. What is the purpose of the command parser view?
+a. It creates different views of router configuration for different users.
+b. It provides a root view of all commands.
+c. It configures a password for a view.
+d. It is used to enter commands accessible for that view.
+7. Which command would you use to enable Cisco IOS resilience?
+a. secure boot-ios
+b. secure boot-config
+c. secure boot-image
+d. secure boot-flash
+8. Which of the following is not a file required in flash if you want to run Cisco SDM from that router? a. sdm.tar
+b. common.tar c. home.html d. home.tar
+9. Cisco SDM automatically synchronizes with the router configuration after a change?
+a. True
+b. False
+10. Which SDM task would you use to configure One-Step Lockdown?
+a. Firewall and ACL
+b. Security Audit
+c. Intrusion prevention
+d. Additional tasks
+11. What command is used to enable AAA on a router?
+a. aaa enable
+b. aaa authentication new-model
+c. aaa tacacs+
+d. aaa new-model
+12. Which of the following is not supported by Cisco Secure ACS?
+a. StreetTalk Directory Services
+b. Novell Directory Services
+c. One-time passwords
+d. ODBC databases
+13. Which portion of a RADIUS packet is sent in cleartext?
+a. All portions
+b. All portions except for the password
+c. All portions except for the CHAP password
+d. All portions except for the username
+14. RADIUS is scheduled to be replaced by: 
+a. PERIMETER
+b. CIRCUMFERENCE 
+c. DIAMETER
+d. PI
+15. What is meant by “out-of-band” management?
+a. The management traffic is sent through a control channel similar to the D channel in ISDN.
+b. The management traffic flows within a network on which no production traffic resides.
+c. The management traffic flows across the enterprise production network.
+d. The management traffic hogs most of the usable bandwidth.
+16. What is the main advantage of Cisco Security MARS over a standard syslog server?
+a. Selective repository for syslog messages
+b. Limitless storage capacity
+c. Multipurpose response capabilities
+d. Central repository and analysis of syslog messages
+17. Which is an advantage of using SSH rather than Telnet to establish a management connection to a router?
+a. SSH is faster.
+b. SSH uses less bandwidth.
+c. SSH provides an encrypted connection.
+d. SSH is readily available on all Cisco IOS routers.
+18. Which of the following protocols is automatically enabled once RSA keys have been generated?
+a. Telnet 
+b. SDM 
+c. SSH
+d. HTTPS
+19. What is the minimum recommended key length for RSA key pairs?
+a. Modulus 1024
+b. Modulus 512
+c. 56-bit encryption
+d. 128-bit encryption
+20. What is the purpose of the crypto key zeroize rsa command?
+a. To generate a new key pair
+b. To establish the fully qualified domain name (FQDN)
+c. To accept incoming connection on CON 0 and VTY 0
+d. To override existing key pairs
+1. Which of the following is not a firewall?
+a. Static packet filters
+b. URL filters
+c. Application layer gateways
+d. Proxy servers
+2. Which of the following is not a limitation or an issue for a stateful firewall?
+a. Stateful firewalls cannot prevent application layer attacks.
+b. Stateful firewalls can provide only limited support to protocols that are not stateful.
+c. Some applications open multiple connections and therefore are incompatible with some Stateful firewalls.
+d. Stateful firewall cannot provide a defense against spoofing attacks.
+4. Which threats cannot be mitigated using ACLs?
+a. Malicious payloads
+b. DoS TCP SYN attacks
+c. ICMP message filtering
+d. IP address spoofing
+5. Cisco routers are certified by which of the following? Select all that apply.
+a. FIPS 140
+b. NITS
+c. CMVP
+d. Common Criteria
+6. Select the ACL numbers for a standard access list.
+a. 100–199 
+b. 1–99
+c. 1300–1999 
+d. 0–99
+7. Which wildcard mask would match for IP subnets 172.30.16.0/24 to 172.30.31.0/24? 
+a. 0.0.31.255
+b. 0.0.0.255
+c. 0.0.255.255
+d. 0.0.15.255
+8. Which of the following is not an action of zone-based policy firewalls?
+a. Drop 
+b. Reset 
+c. Pass
+d. Inspect
+10. When using zone-based policy, for traffic to flow among all the interfaces in a router, all of the interfaces must be which of the following?
+a. Configured with the SDM Wizard
+b. A member of a security zone
+c. Placed in a virtual template
+d. A member of a dialer interface
+11. What is the role of class maps?
+a. They group interfaces to which security policies will be applied.
+b. They allow to specify a unidirectional firewall policy between two security zones.
+c. They specify the actions to be taken when traffic matches the criteria.
+d. They identify traffic and traffic parameters that a Cisco IOS zone-based policy firewall selects for policy application.
+12. Finish the sentence with the most accurate statement. CBAC...
+a. Performs traffic filtering based on application level protocol information
+b. Uses only ACLs to control traffic
+c. Is configured with the Cisco Common Classification Policy Language (C3PL)
+d. Uses a hierarchical structure to define inspection for network protocols
+13. Which of the following is an accurate access list to allow outbound traffic of guests accessing to their incoming mail server?
+a. access-list 101 permit tcp any any eq 25
+b. access-list 101 permit tcp any eq 25 any
+c. access-list 101 permit tcp any eq 110 any
+d. access-list 101 permit tcp any any eq 110
+14. Which of the following is not a caveat regarding ACLs?
+a. You need to use extended ACLs to implement security policies.
+b. Beware of the implicit deny all at the bottom of ACLs.
+c. Place more specific statements higher in ACLs.
+d. Ensure that statements at the top of ACLs do not negate statements found lower in the list.
+1. Asymmetric encryption utilizes which of the following?
+a. A complex solution to leverage certificate
+b. Key pairs to accomplish encryption
+c. All types of authentication as long as they support PKI procedures
+d. A central authority that signs public keys in a network
+2. Select all the desirable features of an encryption algorithm.
+a. Resistance to known cryptanalytic attack
+b. Short lengths and scalability of the key for easy storage
+c. No export or import restrictions
+d. Susceptible to the “avalanche effect”; a small change in plaintext causes substantial changes in ciphertext
+3. Select all the asymmetrical algorithms.
+a. ElGamal
+b. DH
+c. Elliptic curve
+d. RC4
+e. IDEA
+4. Which of the following does not apply to cryptographic hashes?
+a. They are based on one-way functions.
+b. They are used for integrity assurance.
+c. They hash arbitrary data into fixed-length digest known as a fingerprint.
+d. It is feasible for an attacker to have two different sets of data that would come up with the same fingerprint.
+5. DES operates in which two block cipher modes?
+a. ECB
+b. CFB
+c. CBC
+d. OFB
+6. Which algorithm is used in AES? 
+a. Twofish
+b. RC6
+c. RC4
+d. Rijndael
+7. Which of the following statements regarding public-key authentication is true?
+a. When the private key is used to encrypt, the corresponding public key is used to decrypt.
+b. Because the public key is present on only one system, authentication is assured when its private key decrypts the message.
+c. Great effort is made to maintain the secrecy of the public keys.
+d. Public-key scenario is used for producing fingerprint.
+8. Which set of algorithms provides the most secure communication?
+a. AES, SHA-1
+b. 3DES, SHA-1
+c. 3DES, MD5
+d. AES, MD5
+9. Which of the following statements best describe a digital signature?
+a. A digital signature is a message digest encrypted with the sender’s public key.
+b. A digital signature is a message digest encrypted with the receiver’s public key.
+c. A digital signature is a message digest encrypted with the sender’s private key.
+d. A digital signature is a message digest encrypted with the receiver’s public key.
+10. Complete the sentence with the best statement: The Vigenère cipher is _______.
+a. A polyalphabetic cipher
+b. A polymorphic cipher
+c. A polybius square cipher
+d. An alphabetum cipher
+11. Which protocol encrypts at the session layer of the OSI model?
+a. IPsec 
+b. Enigma 
+c. SSL
+d. MD5
+12. Which statement is most accurate when describing aspects of a birthday attack?
+a. An attacker tries every possible key with the decryption algorithm.
+b. The attacker has the ciphertext of several messages, all of which have been encrypted using the same encryption algorithm.
+c. If some function, when supplied with a random input, returns one of k equally likely values, then by repeating the function with different inputs, the same output would be expected after 1.2k1/2 number of times.
+d. The attacker knows a portion of the plaintext and the corresponding ciphertext.
+13. Which statement best describes MD5?
+a. MD5 is a one-way function that makes it difficult to compute a hash from the given input data, but makes it feasible to compute input data given only a hash.
+b. MD5 is a one-way function that makes it easy to compute a hash from the given output data, but makes it unfeasible to compute input data given only a hash.
+c. MD5 is a one-way function that makes it difficult to compute a hash from the given output data, but makes it feasible to compute input data given only a hash.
+d. MD5 is a one-way function that makes it easy to compute a hash from the given input data, but makes it unfeasible to compute input data given only a hash.
+1. Which two modes of SSL VPN are currently available with Cisco IOS?
+a. IPS
+b. Citrix
+c. Clientless
+d. Thin client
+2. Which of the following is not a security function provided by IPsec?
+a. Confidentiality
+b. Key management
+c. Antireplay
+d. Authentication
+e. Integrity
+3. Which of the following are peer-authentication methods with IPsec?
+a. PSK
+b. RSA signatures
+c. RSA encrypted nonces
+d. HMAC-SHA1
+e. HMAC-MD5
+4. Which three modes are used by IKE to secure communications?
+a. Simple mode
+b. Basic mode
+c. Advanced mode
+d. Quick mode
+e. Aggressive mode
+f. Main mode
+5. Which command is better suited to show that traffic is flowing through the VPN tunnel?
+a. show crypto map
+b. show crypto ipsec transform-set
+c. show crypto isakmp policy
+d. show crypto ipsec sa
+6. Which command would help troubleshoot a Phase I issue?
+a. debug crypto sa
+b. debug crypto phase 1
+c. debug crypto isakmp
+d. show crypto sa
+7. Which command would be the most helpful to compare the configuration of peer, ACL, SA lifetime and transform sets?
+a. debug crypto sa
+b. show crypto isakmp sa
+c. show crypto map sa
+d. show crypto map
+8. Which of the following is not part of a cryto map configuration?
+a. Peer
+b. Diffie-Hellman group
+c. Transform set
+d. Lifetime
+10. Which statement is true regarding how ESP and AH segments are encapsulated in IP packets?
+a. In transport mode, security is provided only for the transport layer and below.
+b. In tunnel mode, security is provided for the complete original IP packet.
+c. In tunnel mode, security is provided only for the transport layer and above.
+d. In transport mode, security is provided for the entire IP packet.
+1. Which two modes of IPS operations are currently available with Cisco IDS and IPS solutions? Select all that apply.
+a. Out-of-band b. Promiscuous c. Multicasting d. Inline
+2. Which device cannot be an IDS or IPS sensor?
+a. A Cisco router configured with IPS software
+b. A Cisco VPN concentrator configured with IPS software
+c. An appliance specifically designed to provide dedicated IDS or IPS services
+d. A IDS/IPS network module installed in a Cisco ASA or in a switch or in a router
+3. Which general patterns of misuse do IDS and IPS technologies look for? (Choose all that apply.)
+a. Atomic pattern
+b. Molecular pattern
+c. Intrusive nonces
+d. Composite pattern
+e. Composition pattern
+4. Which of the following is not a type of IDS or IPS sensor?
+a. Signature based
+b. Policy based
+c. Transgression based
+d. Anomaly based
+e. Honeypot based
+5. What are signature engines?
+a. A set of rules that an IDS and an IPS use to detect typical intrusive activity
+b. A full-feature intrusion prevention located in the core network fabric device
+c. An internal security service module that provides dedicated CPU and memory to offload intrusion prevention processing.
+d. A component of an IDS and IPS sensor that supports a group of signatures that are in a common category
+7. Which of the following are advantages of a network-based IPS?
+a. Cost-effective
+b. Provides application-level encryption protection
+c. Is host specific
+d. Analyzes lower-level network events
+e. Not visible on the network
+8. Which IPS card could integrate into a Cisco 1841?
+a. Cisco IDSM-2
+b. Cisco ASA AIP SSM
+c. Cisco IPS AIM
+d. Cisco IPS 4200 series sensor
+9. What is an IPS signature?
+a. A message digest encrypted with the sender’s private key
+b. A set of rules used to detect typical intrusive activity
+c. A binary pattern specific to a virus
+d. An appliance that provides anti-x services
+10. Compiling a regular expression found in a signature requires more memory than the final storage of the regular expression. True or False?
+a. True 
+b. False
+1. A buffer overflow exploit tries to do which of the following?
+a. Extract data from vulnerable host
+b. Overwrite memory on the stack of an application
+c. Disguise itself as a worm
+d. React as a Trojan horse
+2. IronPort products provide protection against what? (Choose the three best answers.)
+a. Buffer overflows
+b. Spam
+c. Malware
+d. Sniffing
+e. Privilege escalation
+f. Spyware
+3. Which of the following are Cisco NAC Appliance characteristics? (Choose two.)
+a. Software module embedded with NAC-enabled products
+b. Self-contained solution
+c. In-band solution that can be used on any Cisco switch or router
+d. Integrated framework leveraging multiple vendor products
+4. Define logical unit number (LUN).
+a. A worldwide name 64-bit address that Fibre Channel networks use to uniquely identify each element in a Fibre Channel network
+b. A collection of ports from a set of connected Fibre channel switches
+c. An address for an individual disk drive and, by extension, the disk device itself
+d. An I/O adapter that sits between the bus of the host computer and the Fibre Channel loop
+5. Factors motivating the installation of a VoIP infrastructure include which of the following? (Choose three.)
+a. Cost savings
+b. Simplicity
+c. Flexibility
+d. Advanced features
+e. Carefree maintenance
+6. Which of the following is not a valid statement regarding assigning voice traffic to specific VLANs?
+a. To logically segment voice and data traffic to increase.
+b. To ensure communication privacy and integrity.
+c. It is seldom used in the industry.
+d. It makes it easier to apply VLAN access list.
+7. Which of the following commands should not be used on a trunk port when attempting to protect against VLAN hopping?
+a. switchport mode access
+b. switchport mode trunk
+c. switchport nonegotiate
+d. switchport trunk native vlan
+8. Which two commands best protects a switched network from a hacker who is trying to preempt an election of the Spanning Tree Protocol?
+a. spanning-tree portfast bpduguard
+b. spanning-tree portfast default
+c. spanning-tree guard root
+d. swithport port-security violation
+9. Which command limits the number of MAC addresses communicating through the same switch port?
+a. switchport mode access
+b. switchport port-security maximum
+c. switch port-security mac-address sticky
+d. switch port-security violation
+10. Which feature could be used to facilitate the use of an IDS sensor on a switched network?
+a. IronPort
+b. Cisco Network Admission Control
+c. Switched Port Analyzer
+d. Storm control
+11. Which best describe the concept of least privilege?
+a. Having small, easily verifiable pieces of software
+b. An access control concept that refers to a mechanism that mediates all access to object
+c. An operating system that provides isolation between processes
+d. A process that is never given more privilege than is necessary to perform a job
+12. Which two Cisco solutions when combined provide protection of operating system vulnerabilities?
+a. Cisco CSA
+b. Cisco NAC
+c. Cisco ASA
+d. Cisco MARS
+13. Why should you worry about Layer 2 security?
+a. Switches cannot regulate the flow of data between their ports.
+b. You don’t have to worry about Layer 2 security because it is lower than the IP layer and that most attacks happen at the network layer.
+c. Domino effect.
+d. VLANs are a Layer 3 function in a switch, and therefore, as with any other Layer 3 processes, it can be easily hacked.
+15. For which reason should IP phones, VoIP gateways, and network management workstations be on their own subnet?
+a. Many simple, yet dangerous attacks can be launched if the attacking device resides within the same broadcast domain as the target system.
+b. Devices are easier to manage if they are located on their own subnet.
+c. It is easier to set SSH access rules in the Cisco security appliances for a distinctive subnet.
+d. With separate subnets, VLANs can be used to control the access to the physical network.

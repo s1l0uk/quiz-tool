@@ -1,0 +1,22 @@
+[
+    {
+        "question1": "Select the correct set of options. These are the initial settings for the default security group:",
+        "answer": "A",
+        "list": {
+            "A": "Allow no inbound traffic, Allow all outbound traffic and Allow instances associated with this security group to talk to each other",
+            "B": "Allow all inbound traffic, Allow no outbound traffic and Allow instances associated with this security group to talk to each other",
+            "C": "Allow no inbound traffic, Allow all outbound traffic and Does NOT allow instances associated with this security group to talk to each other",
+            "D": "Allow all inbound traffic, Allow all outbound traffic and Does NOT allow instances associated with this security group to talk to each other"
+        }
+    },
+    {
+        "question1": "What does Amazon Route53 provide?",
+        "answer": "A,C",
+        "list": {
+            "A": "A global Content Delivery Network.",
+            "B": "None of these.",
+            "C": "A scalable Domain Name System.",
+            "D": "An SSH endpoint for Amazon EC2."
+        }
+    }
+]
