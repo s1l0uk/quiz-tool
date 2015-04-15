@@ -80,6 +80,27 @@
         return this; 
      };
 
+     $.fn.on5 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 53) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+     $.fn.on6 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 54) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
+     $.fn.on7 = function(func) {
+        this.bind('keypress', function(e) {
+            if (e.keyCode == 55) func.apply(this, [e]);    
+        });               
+        return this; 
+     };
+
 })(jQuery);
 
 
@@ -339,19 +360,59 @@ $(document).ready(function() {
 
 
     $(this).on1( function() {
-      $('input[name=a_val][value=A]').prop("checked",true);
+      if ($('input[name=a_val][value=A]').is(':checked')) {
+          $('input[name=a_val][value=A]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=A]').prop("checked",true);
+      }
     });
 
     $(this).on2( function() {
-      $('input[name=a_val][value=B]').prop("checked",true);
+      if ($('input[name=a_val][value=A]').is(':checked')) {
+          $('input[name=a_val][value=A]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=A]').prop("checked",true);
+      }
     });
 
     $(this).on3( function() {
-      $('input[name=a_val][value=C]').prop("checked",true);
+      if ($('input[name=a_val][value=B]').is(':checked')) {
+          $('input[name=a_val][value=B]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=B]').prop("checked",true);
+      }
     });
 
     $(this).on4( function() {
-      $('input[name=a_val][value=D]').prop("checked",true);
+      if ($('input[name=a_val][value=C]').is(':checked')) {
+          $('input[name=a_val][value=C]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=C]').prop("checked",true);
+      }
+    });
+
+    $(this).on5( function() {
+      if ($('input[name=a_val][value=D]').is(':checked')) {
+          $('input[name=a_val][value=D]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=D]').prop("checked",true);
+      }
+    });
+
+    $(this).on6( function() {
+      if ($('input[name=a_val][value=E]').is(':checked')) {
+          $('input[name=a_val][value=E]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=E]').prop("checked",true);
+      }
+    });
+
+    $(this).on7( function() {
+      if ($('input[name=a_val][value=F]').is(':checked')) {
+          $('input[name=a_val][value=F]').prop("checked",false);
+      }else{
+          $('input[name=a_val][value=F]').prop("checked",true);
+      }
     });
 
 
